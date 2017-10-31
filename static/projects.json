@@ -1,0 +1,42 @@
+{
+  "CityTaps": {
+    "title": "CityTaps",
+    "tags": [ "#graphicdesign", "#softwaredev" ],
+    "images": [
+      {
+        "source": "",
+        "description": "",
+        "title": ""
+      }
+    ],
+    "description": "Design, conception and implementation of a water utility parc management software, feeded by Cloud connected smart water meters. Operations on meters and data visualisation in near real time.",
+    "video": {
+      "source": "",
+      "description": ""
+    }
+  },
+  "Mozaïka": {
+    "title": "Mozaïka",
+    "tags": [ "#graphicdesign", "#poster" ],
+    "images": [
+      {
+        "source": "",
+        "description": "",
+        "title": ""
+      }
+    ],
+    "description": "Poster design for the annual show of the dance school Mozaïka"
+  },
+  "Paper & ink": {
+    "title": "Paper & ink",
+    "tags": [ "#illustration" ],
+    "images": [
+      {
+        "source": "",
+        "description": "",
+        "title": ""
+      }
+    ],
+    "description": "Personnal drawings"
+  }
+}

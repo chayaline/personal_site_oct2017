@@ -9,7 +9,7 @@
     <div class="right-container contact-container">
       <div class="contactform">
         <img src="contact_bg.png" class="contact-bg"/>
-        <form action="https://formspree.io/cha.moncoucut@gmail.com" method="post" id="contactform"><br/>
+        <form action="https://formspree.io/charline.creativedev@gmail.com" method="post" id="contactform"><br/>
           <input class="input" type="email" placeholder="Your email adress" name="from" required /><br/>
           <input class="input" type="text" placeholder="What do you want to talk about?" name="subject" /><br/>
           <textarea class="input text" form="contactform" placeholder="Your message" name="message"></textarea><br/>
@@ -38,16 +38,8 @@
     align-content:center;
     text-align:center;
     width:50%;
+    margin-left: -12%;
   }
-
-  /*.contact-container {
-    background-image: url("/contact_bg.png");
-    background-repeat:no-repeat;
-    background-size:40%;
-    background-position-x:right;
-    background-position-y:center;
-  }*/
-
   .input {
     margin: 5px;
     width: 80%;
@@ -72,7 +64,7 @@
   .contact-bg {
     z-index: -1;
     position: absolute;
-    left: 50%;
+    left: 60%;
     /*transform: rotate(10deg);*/
     animation-name: floatingPortrait;
     animation-duration:6s;

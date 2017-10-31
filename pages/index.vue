@@ -74,8 +74,10 @@
 .right-container {
   display:flex;
   justify-content: center;
+  flex-direction:column;
   width: 100%;
   align-items:center;
+  flex-wrap:wrap;
   /*border: 1px solid red;*/
 }
 

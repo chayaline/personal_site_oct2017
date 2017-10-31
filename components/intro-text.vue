@@ -1,7 +1,7 @@
 <template>
   <div class="intro-text">
     <h1 class="title">
-      Hi! I'm <a href="#" v-scroll-to="'#pageone'">char*line;</a>
+      Hi! I'm <a href="#" v-scroll-to="'#pagetwo'">char*line;</a>
     </h1>
     <h2 class="subtitle">
       I'm a <a href="#">graphic designer</a> and a <a href="#">web developper</a>, based in Paris, France.
