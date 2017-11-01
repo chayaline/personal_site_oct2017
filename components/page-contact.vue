@@ -8,7 +8,7 @@
 		</div>
     <div class="right-container contact-container">
       <div class="contactform">
-        <img src="contact_bg.png" class="contact-bg"/>
+        <img src="contact_bg-compressor.png" class="contact-bg"/>
         <form action="https://formspree.io/charline.creativedev@gmail.com" method="post" id="contactform"><br/>
           <input class="input" type="email" placeholder="Your email adress" name="from" required /><br/>
           <input class="input" type="text" placeholder="What do you want to talk about?" name="subject" /><br/>
