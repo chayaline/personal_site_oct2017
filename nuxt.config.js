@@ -22,7 +22,7 @@ module.exports = {
     name: 'circle',
     color: '#ca036a',
     background: 'white'
-  }
+  },
   /*
   ** Build configuration
   */
