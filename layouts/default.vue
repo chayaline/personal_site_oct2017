@@ -5,7 +5,6 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Podkova:700,800');
   html {
     font-family: "Podkova", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
     font-size: 16px;

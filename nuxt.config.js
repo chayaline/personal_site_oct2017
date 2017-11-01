@@ -10,7 +10,8 @@ module.exports = {
       { hid: 'description', name: 'Charline creative developper', content: 'Charline freelance web developper and graphic designer' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Podkova:700,800' }
     ]
   },
   /*
@@ -24,10 +25,6 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    loaders: {
-      test: /\.(woff|woff2|eot|ttf|svg)(\?.*$|$)/,
-      loader: 'url-loader?importLoaders=1&limit=100000'
-    },
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
