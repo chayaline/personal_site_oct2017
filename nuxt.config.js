@@ -24,6 +24,10 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+    loaders: {
+      test: /\.(woff|woff2|eot|ttf|svg)(\?.*$|$)/,
+      loader: 'url-loader?importLoaders=1&limit=100000'
+    },
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
