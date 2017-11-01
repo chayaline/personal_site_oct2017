@@ -18,7 +18,6 @@
       handleScroll () {
         this.scrollAnim = true
         this.scrollPosition = window.scrollY
-        console.log('scrolling')
       }
     },
     beforeMount () {

@@ -7,7 +7,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Podkova:700,800');
   html {
-    font-family: 'Podkova', "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Podkova", serif;
     font-size: 16px;
     word-spacing: 1px;
     -ms-text-size-adjust: 100%;

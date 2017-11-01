@@ -23,7 +23,6 @@
     },
     methods: {
       addLogo (val) {
-        console.log(val)
         const position = this.logos.indexOf(val)
         !this.logos.includes(val) ? this.logos.push(val) : this.logos.splice(position, 1)
       }
