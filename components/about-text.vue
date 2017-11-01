@@ -49,4 +49,14 @@
   .techno:hover{
     cursor:pointer;
   }
+
+
+  @media (max-width: 800px) {
+    .about-text {
+      width: 80%;
+      margin-top:5%;
+      padding-left: 5%;
+      /*border:1px dotted red;*/
+    }
+  }
 </style>

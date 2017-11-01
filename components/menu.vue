@@ -46,6 +46,7 @@
     display:flex;
     flex-direction:column;
     align-items:flex-start;
+    z-index:10;
   }
 
   .dropdown {
@@ -100,6 +101,15 @@
 
     to {
       transform: rotate(-360deg);
+    }
+  }
+
+  @media (max-width: 800px) {
+    .menu-container {
+      left: 5%;
+      top: 5vh;
+      /*border: 1px solid blue;*/
+      justify-content:center;
     }
   }
 </style>

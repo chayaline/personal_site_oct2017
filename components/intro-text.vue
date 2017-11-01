@@ -16,8 +16,17 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-top: 35%;
+    margin-top: 50%;
     width: 90%;
     /*border: 1px solid green;*/
+  }
+
+  @media (max-width: 800px) {
+    .intro-text{
+      width:80%;
+      padding-left:5%;
+      margin-top:20%;
+      margin-bottom:5%;
+    }
   }
 </style>

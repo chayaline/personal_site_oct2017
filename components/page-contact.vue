@@ -1,14 +1,18 @@
 <template>
 	<div class="page" id="pagecontact">
 		<div class="left-container">
-      <h1 class="title">Get in touch</h1><br/>
-      <h2 class="small">If you want to work with me or just if you want to chat about something,
-      email me here!</h2>
-      <p>I'm also on social media if you prefer (links below)</p>
+      <div class="about-text">
+        <h1 class="title">Get in touch</h1><br />
+        <h2 class="small">
+          If you want to work with me or just if you want to chat about something,
+          email me here!
+        </h2>
+        <p>I'm also on social media if you prefer (links below)</p>
+      </div>
 		</div>
     <div class="right-container contact-container">
       <div class="contactform">
-        <img src="contact_bg-compressor.png" class="contact-bg"/>
+        <img src="contact_bg.png" class="contact-bg"/>
         <form action="https://formspree.io/charline.creativedev@gmail.com" method="post" id="contactform"><br/>
           <input class="input" type="email" placeholder="Your email adress" name="from" required /><br/>
           <input class="input" type="text" placeholder="What do you want to talk about?" name="subject" /><br/>
@@ -70,5 +74,11 @@
     animation-duration:6s;
     animation-iteration-count:infinite;
     animation-direction:alternate;
+  }
+
+  @media (max-width: 800px) {
+    .contact-bg {
+      width:90%;
+    }
   }
 	</style>

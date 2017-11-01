@@ -22,6 +22,7 @@
     background-attachment: fixed;
     color: #161616;
     font-weight:700;
+    overflow-x:hidden;
   }
 
 *, *:before, *:after {

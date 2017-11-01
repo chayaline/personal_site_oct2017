@@ -5,10 +5,10 @@
 		</div>
     <div class="right-container">
       <div class="projects" v-if="showMins">
-        <miniature class="project-min" v-for="project in projects" :project="project" @openProject="function (name) { test(name)}" :showMins="showMins"/>
+        <miniature class="project-min" v-for="(project, key) in projects" :project="project" @openProject="function (name) { test(name)}" :showMins="showMins"/>
       </div>
       <project class="project-container" v-if="!showMins" :project="projectToOpen" @back="back()"/>
-      <a href="#" @click="back($event)" v-if="!shoMins"><p class="arrow"><<</p></a>
+      <a href="#" @click="back($event)" v-if="!showMins"><p class="arrow"><<</p></a>
     </div>
 	</div>
 </template>
@@ -86,7 +86,7 @@
     width: 30%;
     min-width:100px;
     height:10vw;
-    min-height:80px;
+    min-height:100px;
     border-radius:5px;
   }
 

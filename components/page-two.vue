@@ -4,9 +4,7 @@
       <aboutText :logos="logosToDisplay"/>
 		</div>
     <div class="right-container">
-      <div class="logoscompo">
         <img class="algae" src="about_bg.png" alt="photo par Kevin Mesme" title="My creative developper face"/>
-      </div>
     </div>
 	</div>
 </template>
@@ -26,12 +24,8 @@
 </script>
 
 <style>
-  .logoscompo {
-    position:relative;
-  }
-
   .algae {
-    width: 100%;
+    max-width: 80%;
     animation-name: floatingPortrait;
     animation-duration: 6s;
     animation-iteration-count: infinite;
@@ -46,6 +40,12 @@
 
     100% {
       transform: translatey(-4px) translateX(3px);
+    }
+  }
+
+  @media (max-width: 800px) {
+    .algae {
+      width:70%;
     }
   }
 	</style>]

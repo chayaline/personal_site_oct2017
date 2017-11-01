@@ -71,14 +71,5 @@
 	  }
 
 	  @media (max-width: 800px) {
-		.page {
-		  flex-direction:column;
-		}
-		.left-container {
-		  max-width:100vw;
-		}
-		.meduse-container {
-		  display:none;
-		}
 	  }
 	</style>

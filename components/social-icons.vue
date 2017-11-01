@@ -2,7 +2,7 @@
   <div class="social">
     <img :src="facebook" @mouseover="facebook = facebook_pink" @mouseleave="facebook = facebook_grey" class="svg" />
     <img :src="twitter"  @mouseover="twitter = twitter_pink" @mouseleave="twitter = twitter_grey" class="svg" />
-    <img :src="instagram" @mouseover="instagram = instagram_pink" @mouseleave="instagram = instagram_grey" class="svg" />
+    <a href="https://www.instagram.com/charline.creativedev/" target="_blank"><img :src="instagram" @mouseover="instagram = instagram_pink" @mouseleave="instagram = instagram_grey" class="svg" /></a>
     <img :src="behance" @mouseover="behance = behance_pink" @mouseleave="behance = behance_grey" class="svg" />
     <img :src="linkedin" @mouseover="linkedin = linkedin_pink" @mouseleave="linkedin = linkedin_grey" class="svg" />
     <img :src="pinterest" @mouseover="pinterest = pinterest_pink" @mouseleave="pinterest = pinterest_grey" class="svg" />
@@ -57,6 +57,18 @@
 
   .svg {
     width:25px;
-    margin: 5px;
+    margin:5px;
+  }
+
+  @media (max-width: 800px) {
+    .social {
+      bottom:initial;
+      left:initial;
+      right:5%;
+      top: 5vh;
+      /*width:90%;*/
+      justify-content:flex-end;
+      /*border:1px solid blue;*/
+    }
   }
 </style>

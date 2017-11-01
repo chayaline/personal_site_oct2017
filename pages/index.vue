@@ -48,7 +48,6 @@
   display: flex;
   justify-content: center;
   flex-direction:column;
-  /*align-items: center;*/
 }
 
 .page {
@@ -96,14 +95,36 @@
   padding-bottom: 15px;
 }
 
-/*.star {
-  width:25px;
-  top: 10%;
-  position:fixed;
-  left:7%;
-}*/
-
 .small {
   font-size:1.1em;
 }
+
+  @media (max-width: 800px) {
+    .container{
+      width:100vw;
+    }
+    .left-container {
+      max-width: initial;
+      min-height: initial;
+      min-height: 20vh;
+      max-height: 40vh;
+      max-width: none;
+      padding-bottom:5%;
+      width: 100%;
+      order: 2;
+    }
+    .right-container{
+      width:100vw;
+      max-height:50vh;
+      min-height:50vh;
+      margin-top:18%;
+      order:1;
+    }
+    .page {
+      max-width: 100vw;
+      padding-left: 0;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+  }
 </style>
