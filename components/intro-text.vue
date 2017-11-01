@@ -25,7 +25,7 @@
     .intro-text{
       width:80%;
       padding-left:5%;
-      margin-top:20%;
+      margin-top:0%;
       margin-bottom:5%;
     }
   }

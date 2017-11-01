@@ -1,13 +1,13 @@
 <template>
 	<div class="page" id="pagecontact">
-		<div class="left-container">
+		<div class="left-container contact-left-container">
       <div class="about-text">
         <h1 class="title">Get in touch</h1><br />
         <h2 class="small">
           If you want to work with me or just if you want to chat about something,
           email me here!
         </h2>
-        <p>I'm also on social media if you prefer (links below)</p>
+        <p>I'm also joignable on social media.</p>
       </div>
 		</div>
     <div class="right-container contact-container">
@@ -79,6 +79,30 @@
   @media (max-width: 800px) {
     .contact-bg {
       width:90%;
+    }
+    .contact-left-container {
+      flex-basis:25%;
+    }
+  }
+
+  @media (max-width:500px) {
+    .contactform{
+      width:90%;
+      margin-left:0;
+    }
+    .contact-bg {
+      width: 60%;
+      left:42%;
+      margin-top:-25%;
+    }
+  }
+
+  @media (max-width:400px) {
+    .input {
+      height:40px;
+    }
+    .text {
+      height: 80px;
     }
   }
 	</style>

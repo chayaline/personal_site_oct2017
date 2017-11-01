@@ -69,4 +69,10 @@
       text-shadow: 1px 0px 5px #ca036a;
     }
   }
+
+  @media (max-width:400px){
+    html {
+      font-size: 14px;
+    }
+  }
 </style>

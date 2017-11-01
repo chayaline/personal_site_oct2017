@@ -37,6 +37,7 @@
     text-align: left;
     margin-top: 20%;
     width: 90%;
+    flex-shrink: 0;
   }
 
   .detail-text {

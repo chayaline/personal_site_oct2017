@@ -1,9 +1,9 @@
 <template>
 	<div class="page pagetwo" id="pagetwo">
-		<div class="left-container">
-      <aboutText :logos="logosToDisplay"/>
+		<div class="left-container about-container">
+      <aboutText/>
 		</div>
-    <div class="right-container">
+    <div class="right-container algae-container">
         <img class="algae" src="about_bg.png" alt="photo par Kevin Mesme" title="My creative developper face"/>
     </div>
 	</div>
@@ -14,7 +14,6 @@
   export default {
     data () {
       return {
-        logosToDisplay: []
       }
     },
     components: {
@@ -46,6 +45,18 @@
   @media (max-width: 800px) {
     .algae {
       width:70%;
+    }
+  }
+
+  @media (max-width:500px) {
+    .about-container {
+      flex-basis:80%;
+      height:100%;
+      max-height:90%;
+    }
+    .algae-container{
+     display:none;
+     flex-basis:0%;
     }
   }
 	</style>]

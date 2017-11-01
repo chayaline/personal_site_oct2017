@@ -1,9 +1,9 @@
 <template>
 	<div class="page" id="pagethree">
-		<div class="left-container">
+		<div class="left-container projects-left-container">
       <workText />
 		</div>
-    <div class="right-container">
+    <div class="right-container projects-right-container">
       <div class="projects" v-if="showMins">
         <miniature class="project-min" v-for="(project, key) in projects" :project="project" @openProject="function (name) { test(name)}" :showMins="showMins"/>
       </div>
@@ -69,14 +69,15 @@
     font-size: 1.5em;
   }
   .projects {
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    width:70%;
-    height:70%;
-    justify-content:space-around;
-    align-content:center;
-    align-items:center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 70%;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-shrink: 0;
     /*border:1px solid red;*/
   }
   .project-min {
@@ -152,12 +153,34 @@
   }
 
   .project-container {
-    display:flex;
-    align-items:flex-start;
-    flex-direction:column;
-    width: 80%;
-    height: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 70%;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-shrink: 0;
     /*border:1px solid red;*/
-    overflow-y:scroll;
+  }
+
+  @media (max-width:800px) {
+    .projects-left-container {
+      flex-basis:25%;
+    }
+    .projects-right-container {
+      flex-basis:70%;
+    }
+    .projects {
+      width:80%;
+      height:80%;
+    }
+  }
+  @media (max-width:400px) {
+    projects {
+      flex-wrap:nowrap;
+      overflow-x:scroll;
+    }
   }
 	</style>

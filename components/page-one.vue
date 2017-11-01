@@ -1,6 +1,6 @@
 <template>
 	<div class="page" id="pageone">
-		<div class="left-container">
+		<div class="left-container intro-container">
 			<introText />
 		</div>
 		<div class="right-container meduse-container">
@@ -70,6 +70,12 @@
 		}
 	  }
 
-	  @media (max-width: 800px) {
+	  @media (max-width: 500px) {
+      .meduse-container{
+        display:none;
+      }
+      .intro-container {
+        flex-basis:30%;
+      }
 	  }
 	</style>

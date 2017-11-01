@@ -48,37 +48,44 @@
   display: flex;
   justify-content: center;
   flex-direction:column;
+  flex-shrink:0;
 }
 
-.page {
+  .page {
     /*min-height: 100vh;*/
+    max-width:100vw;
     height: 100vh;
     display: flex;
     justify-content: flex-start;
-    flex-direction:row;
+    flex-direction: row;
     padding-left: 7%;
-    /*border: 1px solid red;*/
+    flex-shrink: 0;
+    border: 1px solid red;
   }
 
-.left-container {
-  display:flex;
-  min-height:90vh;
-  max-width: 30vw;
-  flex-direction: column;
-  justify-content:center;
-  align-items:flex-start;
-  /*border:1px solid green;*/
-}
+  .left-container {
+    display: flex;
+    min-height: 90vh;
+    max-width: 30vw;
+    flex-basis:40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border:1px solid green;
+  }
 
-.right-container {
-  display:flex;
-  justify-content: center;
-  flex-direction:column;
-  width: 100%;
-  align-items:center;
-  flex-wrap:wrap;
-  /*border: 1px solid red;*/
-}
+  .right-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*min-width:60%;*/
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-basis:60%;
+    border: 1px solid blue;
+  }
 
 .title {
   font-family: "Podkova", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
@@ -102,19 +109,20 @@
   @media (max-width: 800px) {
     .container{
       width:100vw;
+      max-width:100vw;
     }
     .left-container {
       max-width: initial;
       min-height: initial;
       min-height: 20vh;
-      max-height: 40vh;
+      max-height: 50vh;
       max-width: none;
       padding-bottom:5%;
       width: 100%;
       order: 2;
     }
     .right-container{
-      width:100vw;
+      width:100%;
       max-height:50vh;
       min-height:50vh;
       margin-top:18%;
@@ -122,9 +130,16 @@
     }
     .page {
       max-width: 100vw;
+      width:100vw;
       padding-left: 0;
       justify-content: flex-end;
       flex-direction: column;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .title {
+      font-size: 1.5em;
     }
   }
 </style>
