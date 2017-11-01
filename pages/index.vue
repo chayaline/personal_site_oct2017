@@ -60,7 +60,7 @@
     flex-direction: row;
     padding-left: 7%;
     flex-shrink: 0;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
   }
 
   .left-container {
@@ -72,7 +72,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-shrink: 0;
-    border:1px solid green;
+    /*border:1px solid green;*/
   }
 
   .right-container {
@@ -84,7 +84,7 @@
     flex-wrap: wrap;
     flex-shrink: 0;
     flex-basis:60%;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
   }
 
 .title {
