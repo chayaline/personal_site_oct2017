@@ -95,6 +95,10 @@
       left:42%;
       margin-top:-25%;
     }
+    .contact-container {
+      margin-left: 0%;
+      align-items: flex-start;
+    }
   }
 
   @media (max-width:400px) {
@@ -103,6 +107,9 @@
     }
     .text {
       height: 80px;
+    }
+    .contact-bg {
+      display: none;
     }
   }
 	</style>

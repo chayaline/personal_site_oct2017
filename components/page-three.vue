@@ -5,7 +5,7 @@
 		</div>
     <div class="right-container projects-right-container">
       <div class="projects" v-if="showMins">
-        <miniature class="project-min" v-for="(project, key) in projects" :project="project" @openProject="function (name) { test(name)}" :showMins="showMins"/>
+        <miniature class="project-min" :key="key" v-for="(project, key) in projects" :project="project" @openProject="function (name) { test(name)}" :showMins="showMins"/>
       </div>
       <project class="project-container" v-if="!showMins" :project="projectToOpen" @back="back()"/>
       <a href="#" @click="back($event)" v-if="!showMins"><p class="arrow"><<</p></a>
@@ -149,7 +149,7 @@
     text-align: left;
     margin-top: 90%;
     width: 90%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
 
   .project-container {
@@ -177,7 +177,7 @@
       height:80%;
     }
   }
-  @media (max-width:400px) {
+  @media (max-width:500px) {
     projects {
       flex-wrap:nowrap;
       overflow-x:scroll;

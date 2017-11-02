@@ -46,6 +46,10 @@
     .algae {
       width:70%;
     }
+  .algae-container{
+     display:none;
+     flex-basis:0%;
+    }
   }
 
   @media (max-width:500px) {
@@ -53,10 +57,6 @@
       flex-basis:80%;
       height:100%;
       max-height:90%;
-    }
-    .algae-container{
-     display:none;
-     flex-basis:0%;
     }
   }
 	</style>]

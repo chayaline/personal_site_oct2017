@@ -25,8 +25,15 @@
     .intro-text{
       width:80%;
       padding-left:5%;
-      margin-top:0%;
+      margin-top:40%;
       margin-bottom:5%;
     }
+  }
+
+  		 @media (max-height:500px) {
+   .intro-text {
+     margin-top: 0%;
+
+	 } 
   }
 </style>

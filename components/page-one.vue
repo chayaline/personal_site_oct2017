@@ -70,12 +70,12 @@
 		}
 	  }
 
-	  @media (max-width: 500px) {
+	  @media (max-width: 800px) {
       .meduse-container{
         display:none;
       }
       .intro-container {
-        flex-basis:30%;
+        flex-basis:50%;
       }
 	  }
 	</style>

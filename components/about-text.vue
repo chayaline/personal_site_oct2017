@@ -4,8 +4,8 @@
       About me
     </h1>
     <h2 class="small">
-  I code mainly in JS, I'm in love with <span class="techno" @click="addLogo('Vue')">Vue.js</span>, <span class="techno" @click="addLogo('Nodejs')">Node.js</span> and passionate about <span class="techno" @click="addLogo('css')">CSS</span>!</h2>
-  <h2 class="small">I'm also familiar with <span class="techno" @click="addLogo('React')">React</span>, <span class="techno" @click="addLogo('Angular')"> Angular</span>, <span class="techno" @click="addLogo('php')"> PHP </span> and <span class="techno" @click="addLogo('C')"> C </span> and I love learning new technologies.</h2>
+  I code mainly in JS, I'm in love with <span class="techno">Vue.js</span>, <span class="techno">Node.js</span> and passionate about <span class="techno">CSS</span>!</h2>
+  <h2 class="small">I'm also familiar with <span class="techno">React</span>, <span class="techno"> Angular</span>, <span class="techno"> PHP </span> and <span class="techno"> C </span> and I love learning new technologies.</h2>
   <h2 class="small">I built my first website in 2009 and never stoped since then!</h2><br />
   <h2 class="small"> You'll find more details about my experiences on <a href="#">Linkedin</a>.</h2>
   <br /><br />
@@ -58,5 +58,12 @@
       padding-left: 5%;
       /*border:1px dotted red;*/
     }
+  }
+
+  @media (max-height:550px) {
+   .about-text {
+     margin-top: 0%;
+     font-size: 0.8em;
+	 } 
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="intro-text">
+  <div class="work-text">
     <h1 class="title">
       My creations
     </h1>
@@ -12,3 +12,29 @@
     <h3><a href="#" v-scroll-to="'#pagecontact'">Want to work with me?</a></h3>
   </div>
 </template>
+
+<style>
+  .work-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 50%;
+    width: 90%;
+    /* border: 1px solid green; */
+  }
+
+  @media (max-width: 800px) {
+    .work-text{
+      width:80%;
+      padding-left:5%;
+      margin-top:40%;
+      margin-bottom:5%;
+    }
+  }
+
+  		 @media (max-height:500px) {
+   .work-text {
+     margin-top: 0%;
+	 } 
+  }
+</style>
