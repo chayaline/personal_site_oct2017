@@ -4,7 +4,7 @@
       <workText />
 		</div>
     <div class="right-container projects-right-container">
-      <div class="projects" v-if="showMins">
+     <div class="projects" v-if="showMins">
         <miniature class="project-min" :key="key" v-for="(project, key) in projects" :project="project" @openProject="function (name) { test(name)}" :showMins="showMins"/>
       </div>
       <project class="project-container" v-if="!showMins" :project="projectToOpen" @back="back()"/>

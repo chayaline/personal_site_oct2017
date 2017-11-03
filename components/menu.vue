@@ -6,7 +6,8 @@
         <ul>
           <li><a href="#" v-scroll-to="'#pageone'">Intro</a></li>
           <li><a href="#" v-scroll-to="'#pagetwo'">About</a></li>
-          <li><a href="#" v-scroll-to="'#pagethree'">Portfolio</a></li>
+          <li><a href="#" v-scroll-to="'#pagethree'">What I do</a></li>
+          <li><a href="#" v-scroll-to="'#pageportfolio'">Portfolio</a></li>
           <li><a href="#" v-scroll-to="'#pagecontact'">Contact</a></li>
         </ul>
       </div>

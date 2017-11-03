@@ -5,9 +5,8 @@
     "\\components",
     "\\layouts",
     "\\pages",
-    "\\plugins",
     "\\static"
   ],
-  "SelectedNode": "\\static\\projects.json",
+  "SelectedNode": "\\nuxt.config.js",
   "PreviewInSolutionExplorer": false
 }
