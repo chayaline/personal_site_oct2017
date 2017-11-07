@@ -5,7 +5,7 @@
     <a href="#" @click="test($event, project.title)">
     <div class="project-info">
       <h2>{{project.title}}</h2>
-      <p v-for="tag in project.tags">{{tag}}</p>
+      <p v-for="(tag, key) in project.tags" :key="key">{{tag}}</p>
     </div>
     </a>
       <div class="overlay">

@@ -5,6 +5,7 @@
       <pageOne id="pageone"/>
       <pageTwo id="pagetwo"/>
       <pageThree id="pagethree" />
+      <pagePortfolio id="pageportfolio"/>
       <pageContact id="pagecontact" />
       <socialIcons />
   </section>
@@ -15,6 +16,7 @@
   import pageOne from '../components/page-one'
   import pageTwo from '../components/page-two'
   import pageThree from '../components/page-three'
+  import pagePortfolio from '../components/page-portfolio'
   import pageContact from '../components/page-contact'
   import socialIcons from '../components/social-icons'
   import starMenu from '../components/menu'
@@ -25,6 +27,7 @@
       pageOne,
       pageTwo,
       pageThree,
+      pagePortfolio,
       pageContact,
       socialIcons,
       starMenu

@@ -4,11 +4,6 @@
       <workText />
 		</div>
     <div class="right-container projects-right-container">
-      <div class="projects" v-if="showMins">
-        <miniature class="project-min" :key="key" v-for="(project, key) in projects" :project="project" @openProject="function (name) { test(name)}" :showMins="showMins"/>
-      </div>
-      <project class="project-container" v-if="!showMins" :project="projectToOpen" @back="back()"/>
-      <a href="#" @click="back($event)" v-if="!showMins"><p class="arrow"><<</p></a>
     </div>
 	</div>
 </template>
@@ -113,36 +108,6 @@
   .project-min:hover .project-info {
     opacity: 1;
   }
-
-  .project-info {
-    font-weight:700;
-    display:flex;
-    justify-content:center;
-    align-content:center;
-    flex-direction:column;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    opacity: 0;
-    z-index: 2;
-    transition: .5s ease;
-    padding-left:5px;
-  }
-
-    .project-info > h2 {
-      text-transform:uppercase;
-    }
-  .project-preview {
-    display:block;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-  }
   .work-text {
     display: flex;
     flex-direction: column;
@@ -150,19 +115,6 @@
     margin-top: 90%;
     width: 90%;
     /* border: 1px solid green; */
-  }
-
-  .project-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 70%;
-    height: 70%;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-    flex-shrink: 0;
-    /*border:1px solid red;*/
   }
 
   @media (max-width:800px) {
