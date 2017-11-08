@@ -57,7 +57,7 @@
    width:100%;
    height:90%;
    flex-wrap: nowrap;
-   overflow-x: hidden;
+   overflow: hidden;
    flex-shrink: 0;
    display: flex;
    flex-direction: row;
@@ -68,7 +68,15 @@
  .project-picture img {
    width: 100%;
  }
-
+@media (max-width: 800px) {
+  .pageportfolio {
+    height:auto;
+  }
+  .pictures-container {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+}
  @media (max-width: 600px){
    .pictures-container{
      flex-direction: column;

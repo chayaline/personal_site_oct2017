@@ -78,7 +78,7 @@
 
   @media (max-width: 800px) {
     .contact-bg {
-      width:90%;
+      width:70%;
     }
     .contact-left-container {
       flex-basis:25%;

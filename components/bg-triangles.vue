@@ -31,10 +31,9 @@
 <style>
   .bg-triangles {
     display: flex;
-    animation: turn 2s linear forwards 1s;
     position: fixed;
     overflow: visible;
-    top:0px;
+    top:0;
     left: -100px;
     height: 100vh;
     width: 100vw;

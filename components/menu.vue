@@ -5,8 +5,9 @@
       <div class="dropdown" v-show="showDrop">
         <ul>
           <li><a href="#" v-scroll-to="'#pageone'">Intro</a></li>
-          <li><a href="#" v-scroll-to="'#pagetwo'">About</a></li>
-          <li><a href="#" v-scroll-to="'#pagethree'">Portfolio</a></li>
+          <li><a href="#" v-scroll-to="'#pagetwo'">About me</a></li>
+          <li><a href="#" v-scroll-to="'#pagethree'">What I do</a></li>
+          <li><a href="#" v-scroll-to="'#pageportfolio'">Examples</a></li>
           <li><a href="#" v-scroll-to="'#pagecontact'">Contact</a></li>
         </ul>
       </div>
@@ -28,6 +29,15 @@
       }
     },
     methods: {
+      handleScroll () {
+        this.showDrop = false
+      }
+    },
+    beforeMount () {
+      window.addEventListener('scroll', this.handleScroll)
+    },
+    beforeDestroy () {
+      window.removeEventListener('scroll', this.handleScroll)
     }
   }
 </script>
@@ -37,6 +47,7 @@
   }
   .star {
     width: 25px;
+    cursor: pointer;
   }
 
   .menu-container{

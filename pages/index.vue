@@ -1,7 +1,7 @@
 <template>
   <section class="container">
-      <bgTriangles/>
       <starMenu />
+      <bgTriangles/>
       <pageOne id="pageone"/>
       <pageTwo id="pagetwo"/>
       <pageThree id="pagethree" />
@@ -49,21 +49,18 @@
 .container {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   flex-direction:column;
   flex-shrink:0;
 }
 
   .page {
-    /*min-height: 100vh;*/
-    max-width:100vw;
+    width:100vw;
     height: 100vh;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     padding-left: 7%;
     flex-shrink: 0;
-    /*border: 1px solid red;*/
   }
 
   .left-container {
@@ -118,18 +115,19 @@
       max-width: initial;
       min-height: initial;
       min-height: 20vh;
-      max-height: 50vh;
+      max-height: 80vh;
       max-width: none;
       padding-bottom:5%;
+      flex-basis: 100%;
       width: 100%;
-      order: 2;
+      order: 1;
     }
     .right-container{
       width:100%;
       max-height:50vh;
       min-height:50vh;
       margin-top:18%;
-      order:1;
+      order:2;
     }
     .page {
       max-width: 100vw;
@@ -137,6 +135,7 @@
       padding-left: 0;
       justify-content: flex-end;
       flex-direction: column;
+      /* border:1px solid red; */
     }
   }
 

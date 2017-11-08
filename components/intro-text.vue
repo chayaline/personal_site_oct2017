@@ -25,15 +25,15 @@
     .intro-text{
       width:80%;
       padding-left:5%;
-      margin-top:40%;
+      margin-top:0vh;
       margin-bottom:5%;
+      /* border: 1px solid red; */
     }
   }
 
   		 @media (max-height:500px) {
    .intro-text {
      margin-top: 0%;
-
 	 } 
   }
 </style>

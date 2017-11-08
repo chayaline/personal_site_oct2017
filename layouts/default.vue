@@ -16,12 +16,20 @@
     box-sizing: border-box;
     background-image: url('/paper_background.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: left top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #161616;
     font-weight:700;
     overflow-x:hidden;
+  }
+
+  body {
+        min-width:100vw;
+        margin: 0;
+        padding: 0;
+        height:auto;
+        /* border:1px solid pink; */
   }
 
 *, *:before, *:after {

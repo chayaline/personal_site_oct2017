@@ -4,13 +4,13 @@
       About me
     </h1>
     <h2 class="small">
-  I code mainly in JS, I'm in love with <span class="techno">Vue.js</span>, <span class="techno">Node.js</span> and passionate about <span class="techno">CSS</span>!</h2>
-  <h2 class="small">I'm also familiar with <span class="techno">React</span>, <span class="techno"> Angular</span>, <span class="techno"> PHP </span> and <span class="techno"> C </span> and I love learning new technologies.</h2>
+  I code mainly in JS, I'm in love with Vue.js, Node.js and passionate about CSS!</h2>
+  <h2 class="small">I'm also familiar with React, Angular, PHP and C and I love learning new technologies.</h2>
   <h2 class="small">I built my first website in 2009 and never stoped since then!</h2><br />
-  <h2 class="small"> You'll find more details about my experiences on <a href="#">Linkedin</a>.</h2>
+  <h2 class="small"> You'll find more details about my experiences on <a target="_blank" href="https://www.linkedin.com/in/charline-moncoucut/">Linkedin</a>.</h2>
   <br /><br />
   <h1>Beside coding:</h1>
-    <p>I'm also a <span class="techno" @click="addLogo('dance')"> dancer</span>, specialized in tribal fusion. Dance is my main passion and I love to fuse coding and dancing, by creating usefull apps for dancers.
+    <p>I'm also a dancer, specialized in tribal fusion. Dance is my main passion and I love to fuse coding and dancing, by creating usefull apps for dancers.
   <br />
   <br /> Want to chat about code and/or dance? <a href="#">Write to me</a>!
 </p>
@@ -37,13 +37,11 @@
     margin-top: 20%;
     width: 90%;
     flex-shrink: 0;
+    /* border:1px solid purple; */
   }
 
   .detail-text {
     font-size: 0.8em;
-  }
-  .techno {
-    border-bottom: 1px dashed #ca036a;
   }
 
   .techno:hover{

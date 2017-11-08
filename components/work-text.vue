@@ -25,10 +25,8 @@
     text-align: left;
     margin-top: 50%;
     width: 90%;
+    flex-shrink: 0;
     /* border: 1px solid green; */
-  }
-  .cat-puces::before {
-    content: ;
   }
   .puces {
     width:0.7em;
@@ -38,14 +36,15 @@
     .work-text{
       width:80%;
       padding-left:5%;
-      margin-top:40%;
+      margin-top:10%;
       margin-bottom:5%;
     }
   }
 
-  		 @media (max-height:500px) {
+  @media (max-height:550px) {
    .work-text {
-     margin-top: 0%;
+     /* margin-top: 0%; */
+     font-size: 0.8em;
 	 } 
   }
 </style>

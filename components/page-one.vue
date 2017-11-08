@@ -76,6 +76,7 @@
       }
       .intro-container {
         flex-basis:50%;
+				/* border:1px solid blue; */
       }
 	  }
 	</style>

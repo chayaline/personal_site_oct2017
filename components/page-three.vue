@@ -3,8 +3,6 @@
 		<div class="left-container projects-left-container">
       <workText />
 		</div>
-    <div class="right-container projects-right-container">
-    </div>
 	</div>
 </template>
 
@@ -60,54 +58,6 @@
 </script>
 
 <style>
-  .arrow {
-    font-size: 1.5em;
-  }
-  .projects {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 70%;
-    height: 70%;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    /*border:1px solid red;*/
-  }
-  .project-min {
-    overflow:hidden;
-    position:relative;
-    margin:10px;
-    width: 30%;
-    min-width:100px;
-    height:10vw;
-    min-height:100px;
-    border-radius:5px;
-  }
-
-  .overlay {
-    position: absolute;
-    top:0;
-    left:0;
-    background-color: #ca036a;
-    opacity: 0;
-    height:100%;
-    width:100%;
-    transition: .5s ease;
-  }
-
-  .project-min:hover .overlay {
-    opacity: .5;
-  }
-
-  .project-min:hover .project-preview {
-    opacity: .5;
-  }
-
-  .project-min:hover .project-info {
-    opacity: 1;
-  }
   .work-text {
     display: flex;
     flex-direction: column;
@@ -116,23 +66,10 @@
     width: 90%;
     /* border: 1px solid green; */
   }
-
-  @media (max-width:800px) {
-    .projects-left-container {
-      flex-basis:25%;
-    }
-    .projects-right-container {
-      flex-basis:70%;
-    }
-    .projects {
-      width:80%;
-      height:80%;
-    }
+  
+  .projects-left-container {
+    /* border:2px solid blue; */
   }
-  @media (max-width:500px) {
-    projects {
-      flex-wrap:nowrap;
-      overflow-x:scroll;
-    }
+  @media (max-width:800px) {
   }
 	</style>

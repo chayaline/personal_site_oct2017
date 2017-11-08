@@ -1,11 +1,11 @@
 <template>
   <div class="social">
-    <img :src="facebook" @mouseover="facebook = facebook_pink" @mouseleave="facebook = facebook_grey" class="svg" />
-    <img :src="twitter"  @mouseover="twitter = twitter_pink" @mouseleave="twitter = twitter_grey" class="svg" />
+    <!-- <img :src="facebook" @mouseover="facebook = facebook_pink" @mouseleave="facebook = facebook_grey" class="svg" /> -->
+    <!-- <img :src="twitter"  @mouseover="twitter = twitter_pink" @mouseleave="twitter = twitter_grey" class="svg" /> -->
     <a href="https://www.instagram.com/charline.creativedev/" target="_blank"><img :src="instagram" @mouseover="instagram = instagram_pink" @mouseleave="instagram = instagram_grey" class="svg" /></a>
-    <img :src="behance" @mouseover="behance = behance_pink" @mouseleave="behance = behance_grey" class="svg" />
-    <img :src="linkedin" @mouseover="linkedin = linkedin_pink" @mouseleave="linkedin = linkedin_grey" class="svg" />
-    <img :src="pinterest" @mouseover="pinterest = pinterest_pink" @mouseleave="pinterest = pinterest_grey" class="svg" />
+    <a href="https://www.behance.net/chamoncouca613" target="_blank"><img :src="behance" @mouseover="behance = behance_pink" @mouseleave="behance = behance_grey" class="svg" /></a>
+    <a href="https://www.linkedin.com/in/charline-moncoucut/" target="_blank"><img :src="linkedin" @mouseover="linkedin = linkedin_pink" @mouseleave="linkedin = linkedin_grey" class="svg" /></a>
+    <!-- <img :src="pinterest" @mouseover="pinterest = pinterest_pink" @mouseleave="pinterest = pinterest_grey" class="svg" /> -->
   </div>
 </template>
 
