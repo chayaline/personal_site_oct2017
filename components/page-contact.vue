@@ -40,7 +40,7 @@
     justify-content:center;
     align-content:center;
     text-align:center;
-    width:50%;
+    width:55%;
     margin-left: -12%;
   }
   .input {
@@ -74,7 +74,11 @@
     animation-iteration-count:infinite;
     animation-direction:alternate;
   }
-
+  @media (max-width:1000px) {
+    .contact-bg {
+      width:100%;
+    }
+  }
   @media (max-width: 800px) {
     .contact-bg {
       width:70%;
@@ -86,7 +90,7 @@
 
   @media (max-width:500px) {
     .contactform{
-      width:90%;
+      width:100%;
       margin-left:0;
     }
     .contact-bg {
