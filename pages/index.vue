@@ -1,6 +1,7 @@
 <template>
   <section class="container">
       <starMenu />
+      <languages />
       <bgTriangles/>
       <pageOne id="pageone"/>
       <pageTwo id="pagetwo"/>
@@ -20,6 +21,7 @@
   import pageContact from '../components/page-contact'
   import socialIcons from '../components/social-icons'
   import starMenu from '../components/menu'
+  import languages from '../components/languages'
 
   export default {
     components: {
@@ -30,7 +32,8 @@
       pagePortfolio,
       pageContact,
       socialIcons,
-      starMenu
+      starMenu,
+      languages
     },
     data () {
       return {

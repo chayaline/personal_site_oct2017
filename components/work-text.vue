@@ -1,20 +1,20 @@
 <template>
   <div class="work-text">
     <h1 class="title">
-      What I do
+      {{$t('whatido.title')}}
     </h1><br/>
     <h2 class="small"><span class="cat-puces">
-      <img src="/star.svg" class="puces"/> Logo design</span>
-    <br/><img src="/star.svg" class="puces"/> Brand identity
-    <br/><img src="/star.svg" class="puces"/> Print communication
-    <br/><img src="/star.svg" class="puces"/> Websites
-    <br/><img src="/star.svg" class="puces"/> Web apps
-    <br/><img src="/star.svg" class="puces"/> Data visualisations
-    <br/><img src="/star.svg" class="puces"/> Infographics
-    <br/><img src="/star.svg" class="puces"/> Visuals for social media
-    <br/><br/>What you want is not on the list? I'd be happy to work on something new, <a href="#" v-scroll-to="'#pagecontact'">tell me about it</a>!</h2>
+      <img src="/star.svg" class="puces"/> {{$t('whatido.logodesign')}}</span>
+    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.brandid')}}
+    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.printcom')}}
+    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.websites')}}
+    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.webapp')}}
+    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.datavis')}}
+    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.infographics')}}
+    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.socialmedia')}}
+    <br/><br/>{{$t('whatido.notonthelist')}} <a href="#" v-scroll-to="'#pagecontact'">{{$t('whatido.tellaboutit')}}</a></h2>
     <br/>
-    <h3><a href="#" v-scroll-to="'#pageportfolio'">Want to see some examples?</a></h3>
+    <h3><a href="#" v-scroll-to="'#pageportfolio'">{{$t('whatido.somexmpl')}}</a></h3>
   </div>
 </template>
 

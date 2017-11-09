@@ -4,6 +4,19 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted () {
+    console.log('mounted', this.$i18n.locale)
+  },
+  methods: {
+    path (url) {
+      console.log('locale', this.$i18n.locale)
+      return (this.$i18n.locale === 'en' ? url : '/' + this.$i18n.locale + url)
+    }
+  }
+}
+</script>
 <style>
   html {
     font-family: "Podkova", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";

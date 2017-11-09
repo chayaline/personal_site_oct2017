@@ -4,11 +4,11 @@
     <transition name="menuSlide">
       <div class="dropdown" v-show="showDrop">
         <ul>
-          <li><a href="#" v-scroll-to="'#pageone'">Intro</a></li>
-          <li><a href="#" v-scroll-to="'#pagetwo'">About me</a></li>
-          <li><a href="#" v-scroll-to="'#pagethree'">What I do</a></li>
-          <li><a href="#" v-scroll-to="'#pageportfolio'">Examples</a></li>
-          <li><a href="#" v-scroll-to="'#pagecontact'">Contact</a></li>
+          <li><a href="#" v-scroll-to="'#pageone'">{{ $t('menu.intro')}}</a></li>
+          <li><a href="#" v-scroll-to="'#pagetwo'">{{ $t('menu.about')}}</a></li>
+          <li><a href="#" v-scroll-to="'#pagethree'">{{ $t('menu.WhatIdo')}}</a></li>
+          <li><a href="#" v-scroll-to="'#pageportfolio'">{{ $t('menu.portfolio')}}</a></li>
+          <li><a href="#" v-scroll-to="'#pagecontact'">{{ $t('menu.contact')}}</a></li>
         </ul>
       </div>
     </transition>

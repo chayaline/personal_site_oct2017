@@ -2,22 +2,21 @@
 	<div class="page" id="pagecontact">
 		<div class="left-container contact-left-container">
       <div class="about-text">
-        <h1 class="title">Get in touch</h1><br />
+        <h1 class="title">{{$t('contact.title')}}</h1><br />
         <h2 class="small">
-          If you want to work with me or just if you want to chat about something,
-          email me here!
+          {{$t('contact.contacttext')}}
         </h2>
-        <p>I'm also contactable on social media.</p>
+        <p>{{$t('contact.alsomedia')}}</p>
       </div>
 		</div>
     <div class="right-container contact-container">
       <div class="contactform">
         <img src="contact_bg.png" class="contact-bg"/>
         <form action="https://formspree.io/charline.creativedev@gmail.com" method="post" id="contactform"><br/>
-          <input class="input" type="email" placeholder="Your email adress" name="from" required /><br/>
-          <input class="input" type="text" placeholder="What do you want to talk about?" name="subject" /><br/>
-          <textarea class="input text" form="contactform" placeholder="Your message" name="message"></textarea><br/>
-          <input class="input" type="submit" value="Send" />
+          <input class="input" type="email" :placeholder="$t('contact.yourmail')" name="from" required /><br/>
+          <input class="input" type="text" :placeholder="$t('contact.subject')" name="subject" /><br/>
+          <textarea class="input text" form="contactform" :placeholder="$t('contact.message')" name="message"></textarea><br/>
+          <input class="input" type="submit" :value="$t('contact.send')" />
         </form>
       </div>
     </div>

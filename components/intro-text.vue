@@ -1,12 +1,12 @@
 <template>
   <div class="intro-text">
     <h1 class="title">
-      Hi! I'm <a href="#" v-scroll-to="'#pagetwo'">char*line;</a>
+      {{$t('intro.hi')}} <a href="#" v-scroll-to="'#pagetwo'">char*line;</a>
     </h1>
     <h2 class="subtitle">
-      I'm a <a href="#" v-scroll-to="'#pagethree'">graphic designer</a> and a <a href="#" v-scroll-to="'#pagethree'">web developper</a>, based in Paris, France.
+      {{$t('intro.im')}} <a href="#" v-scroll-to="'#pagethree'">{{$t('intro.graphicdesigner')}}</a> {{$t('intro.and')}} <a href="#" v-scroll-to="'#pagethree'"> {{$t('intro.webdevelopper')}}</a>, {{$t('intro.basedin')}}.
       <br/><br />
-      <a href="#" v-scroll-to="'#pagecontact'">let's talk!</a>
+      <a href="#" v-scroll-to="'#pagecontact'">{{$t('intro.letstalk')}}</a>
 </h2>
   </div>
 </template>

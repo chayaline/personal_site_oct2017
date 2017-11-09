@@ -1,0 +1,56 @@
+{
+    "menu":{
+        "intro": "Intro",
+        "about": "À propos de moi",
+        "WhatIdo": "Ce que je fais",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "intro":{
+        "hi": "Bonjour! Je suis",
+        "im": "Je suis",
+        "graphicdesigner": "graphiste",
+        "and": "et",
+        "webdevelopper": "développeuse web",
+        "basedin": "basée à Paris",
+        "letstalk": "On travaille ensemble ?"
+    },
+    "about": {
+        "title":"À propos de moi",
+        "sent1":"Je code principalement en JS, j'ai eu un code foudre pour Vue.js, j'aime Node.js et le CSS me passionne!",
+        "sent2":"Je connais aussi React, Angular, PHP, C, et j'adore apprendre de nouvelles technologies.",
+        "sent3": "J'ai créé mon premier site en 2009 et je n'ai pas cessé depuis!",
+        "moreexp": "Vous trouverez plus de détail sur mon expérience sur",
+        "besidecoding": "En dehors du code",
+        "besidetext": "Je suis aussi une danseuse et professeur de danse, spécialisée dans la danse orientale tribal fusion. La danse est ma première passion et j'adore la mélanger au code en créant des applications utiles aux danseurs.",
+        "chatinvit": "Vous voulez discuter de code, de danse, ou autre ?",
+        "writeme": "Écrivez moi"
+    },
+    "whatido": {
+        "title": "Ce que je fais",
+        "logodesign": "Design de logo",
+        "brandid": "Identité visuelle",
+        "printcom": "Communication imprimée",
+        "websites": "Websites",
+        "webapp": "Web apps",
+        "datavis": "Data visualisations",
+        "infographics": "Infographies",
+        "socialmedia": "Visuels pour réseaux sociaux",
+        "notonthelist": "Ce que vous voulez n'est pas dans la liste? Je serai ravie de travailler sur quelque chose de nouveau",
+        "tellaboutit": "de quoi s'agit-il?",
+        "somexmpl": "Vous voulez voir d'autres exemples?",
+        "latestproject": "Dernier projet",
+        "currentprojects": "Projets en cours",
+        "dancenotebook": "Une app pour que les danseurs puissent enregistrer leurs mouvements/poses/combos, et les retrouver facilement grâce à un système de tags.",
+        "whatzecount": "Une app pour permettre aux danseurs de trouver facilement la musique idéale pour leurs créations, en recherchant par bpm, mesure, énergie, durée, style..."
+    },
+    "contact": {
+        "title": "Contact",
+        "contacttext": "Si vous voulez qu'on travaille ensemble, ou juste discuter, écrivez moi ici!",
+        "alsomedia": "Je suis aussi joignable sur les réseaux sociaux.",
+        "yourmail": "Votre adresse mail",
+        "subject": "De quoi voulez vous parler?",
+        "message": "Votre message",
+        "send": "Envoyer"
+    }
+}

@@ -41,5 +41,12 @@ module.exports = {
       }
     },
   },
-  plugins: ['./plugins/scrollto'],
+  plugins: ['./plugins/scrollto', '~/plugins/i18n.js'],
+  vendor: ['vue-i18n'],
+  router: {
+    middleware: 'i18n'
+  },
+  generate: {
+    routes: ['/', '/fr']
+  }
 }

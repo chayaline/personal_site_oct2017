@@ -1,0 +1,56 @@
+{
+    "menu":{
+        "intro": "Intro",
+        "about": "About me",
+        "WhatIdo": "What I do",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "intro":{
+        "hi": "Hi! I'm",
+        "im": "I'm a",
+        "graphicdesigner": "graphic designer",
+        "and": "and a",
+        "webdevelopper": "web developper",
+        "basedin": "based in Paris, France",
+        "letstalk": "Let's work together!"
+    },
+    "about": {
+        "title":"About me",
+        "sent1":"I code mainly in JS, I'm in love with Vue.js, Node.js and passionate about CSS!",
+        "sent2":"I'm also familiar with React, Angular, PHP and C and I love learning new technologies.",
+        "sent3": "I built my first website in 2009 and never stoped since then!",
+        "moreexp": "You'll find more details about my experiences on",
+        "besidecoding": "Beside coding",
+        "besidetext": "I'm also a dancer, specialized in tribal fusion. Dance is my main passion and I love to fuse coding and dancing, by creating usefull apps for dancers.",
+        "chatinvit": "Want to chat about code and/or dance?",
+        "writeme": "Write to me"
+    },
+    "whatido": {
+        "title": "What I do",
+        "logodesign": "Logo design",
+        "brandid": "Brand Identity",
+        "printcom": "Print communications",
+        "websites": "Websites",
+        "webapp": "Web apps",
+        "datavis": "Data visualisations",
+        "infographics": "Infographics",
+        "socialmedia": "Visuals for social media",
+        "notonthelist": "What you want is not on the list? I'd be happy to work on something new,",
+        "tellaboutit": "tell me about it!",
+        "somexmpl": "Want to see some examples?",
+        "latestproject": "Latest Project",
+        "currentprojects": "Currents Projects",
+        "dancenotebook": "An app where dancers can note their moves/combos/poses and give them tags and caracteristics to easily find them later",
+        "whatzecount": "An app where dancers can find a track fitting their needs. Search by bmp, counts, energy, style, ..."
+    },
+    "contact": {
+        "title": "Get in touch",
+        "contacttext": "If you want to work with me or just if you want to chat about something, email me here!",
+        "alsomedia": "I'm also contactable on social media.",
+        "yourmail": "Your email adress",
+        "subject": "What do you want to talk about?",
+        "message": "Your message",
+        "send": "Send"
+    }
+}

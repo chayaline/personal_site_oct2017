@@ -1,18 +1,17 @@
 <template>
   <div class="about-text" id="about-text">
     <h1 class="title">
-      About me
+      {{ $t('about.title')}}
     </h1>
-    <h2 class="small">
-  I code mainly in JS, I'm in love with Vue.js, Node.js and passionate about CSS!</h2>
-  <h2 class="small">I'm also familiar with React, Angular, PHP and C and I love learning new technologies.</h2>
-  <h2 class="small">I built my first website in 2009 and never stoped since then!</h2><br />
-  <h2 class="small"> You'll find more details about my experiences on <a target="_blank" href="https://www.linkedin.com/in/charline-moncoucut/">Linkedin</a>.</h2>
+    <h2 class="small">{{ $t('about.sent1')}}</h2>
+  <h2 class="small">{{ $t('about.sent2')}}</h2>
+  <h2 class="small">{{ $t('about.sent3')}}</h2><br />
+  <h2 class="small">{{ $t('about.moreexp')}} <a target="_blank" href="https://www.linkedin.com/in/charline-moncoucut/">Linkedin</a>.</h2>
   <br /><br />
-  <h1>Beside coding:</h1>
-    <p>I'm also a dancer, specialized in tribal fusion. Dance is my main passion and I love to fuse coding and dancing, by creating usefull apps for dancers.
+  <h1>{{ $t('about.besidecoding')}}:</h1>
+    <p>{{ $t('about.besidetext')}}
   <br />
-  <br /> Want to chat about code and/or dance? <a href="#">Write to me</a>!
+  <br /> {{ $t('about.chatinvit')}} <a href="#">{{ $t('about.writeme')}}</a>!
 </p>
   </div>
 </template>
