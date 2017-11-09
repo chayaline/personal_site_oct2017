@@ -1,6 +1,6 @@
 <template>
   <div class="bg-triangles">
-    <div class="Triangle Triangle--one" :class="{'scroll-anim': scrollAnim}"></div>
+    <div class="Triangle Triangle--one" :class="{'Triangle--one-stage2': stage2}"></div>
     <div class="Triangle Triangle--two"></div>
     <!--<div class="Triangle Triangle--three"></div>
     <div class="Triangle Triangle--four"></div>-->
@@ -11,13 +11,15 @@
     data () {
       return {
         scrollAnim: false,
-        scrollPosition: 0
+        scrollPosition: 0,
+        stage2: false
       }
     },
     methods: {
       handleScroll () {
-        this.scrollAnim = true
-        this.scrollPosition = window.scrollY
+        // console.log(window.scrollY, window.innerHeight)
+        // this.stage2 = window.scrollY >= window.innerHeight
+        // this.scrollPosition = window.scrollY
       }
     },
     beforeMount () {
@@ -54,7 +56,13 @@
     border-style: solid;
     margin-top: 10%;
     border-width: 25px 0 750px 480px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
     border-color: transparent transparent transparent rgba(255,255,255,0.3);
+  }
+
+  .Triangle--one-stage2 {
+    margin-top: 50%;
+    border-width: 25px 0 750px 480px;
   }
 
   .Triangle--two {

@@ -11,7 +11,6 @@ export default {
   },
   methods: {
     path (url) {
-      console.log('locale', this.$i18n.locale)
       return (this.$i18n.locale === 'en' ? url : '/' + this.$i18n.locale + url)
     }
   }
