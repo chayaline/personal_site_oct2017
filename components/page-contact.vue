@@ -7,7 +7,7 @@
           If you want to work with me or just if you want to chat about something,
           email me here!
         </h2>
-        <p>I'm also joignable on social media.</p>
+        <p>I'm also contactable on social media.</p>
       </div>
 		</div>
     <div class="right-container contact-container">

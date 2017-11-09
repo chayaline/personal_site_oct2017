@@ -84,7 +84,7 @@
     flex-wrap: wrap;
     flex-shrink: 0;
     flex-basis:60%;
-    /*border: 1px solid blue;*/
+    /* border: 1px solid blue; */
   }
 
 .title {

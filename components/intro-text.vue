@@ -4,7 +4,7 @@
       Hi! I'm <a href="#" v-scroll-to="'#pagetwo'">char*line;</a>
     </h1>
     <h2 class="subtitle">
-      I'm a <a href="#">graphic designer</a> and a <a href="#">web developper</a>, based in Paris, France.
+      I'm a <a href="#" v-scroll-to="'#pagethree'">graphic designer</a> and a <a href="#" v-scroll-to="'#pagethree'">web developper</a>, based in Paris, France.
       <br/><br />
       <a href="#" v-scroll-to="'#pagecontact'">let's talk!</a>
 </h2>
