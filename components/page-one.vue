@@ -5,9 +5,9 @@
 		</div>
 		<div class="right-container meduse-container">
 			<transition name="fadeUp">
-				<div class="relax" v-show="isStressed">Synch you breath with the jellyfish swimming and relax!</div>
+				<div class="relax" v-show="isStressed">{{$t('jellyfish')}}</div>
 			</transition>
-			<img @click="isStressed = !isStressed" src="meduse.png" class="meduse" title="I'm a multipotential jellyfish'"/>
+			<img @click="isStressed = !isStressed" src="meduse.png" class="meduse" :title="$t('imagesalt.jellyfish')"/>
 		</div>
 	</div>
 </template>

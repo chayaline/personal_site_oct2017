@@ -2,7 +2,8 @@
   <section class="container">
       <starMenu />
       <languages />
-      <bgTriangles/>
+      <!-- <bgTriangles/> -->
+      <bgTrianglesv2/>
       <pageOne id="pageone"/>
       <pageTwo id="pagetwo"/>
       <pageThree id="pagethree" />
@@ -14,6 +15,7 @@
 
 <script>
   import bgTriangles from '../components/bg-triangles'
+  import bgTrianglesv2 from '../components/bg-trianglesv2'
   import pageOne from '../components/page-one'
   import pageTwo from '../components/page-two'
   import pageThree from '../components/page-three'
@@ -26,6 +28,7 @@
   export default {
     components: {
       bgTriangles,
+      bgTrianglesv2,
       pageOne,
       pageTwo,
       pageThree,

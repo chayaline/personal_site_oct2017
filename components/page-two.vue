@@ -4,7 +4,7 @@
       <aboutText/>
 		</div>
     <div class="right-container algae-container">
-        <img class="algae" src="about_bg.png" alt="photo par Kevin Mesme" title="My creative developper face"/>
+        <img class="algae" src="about_bg.png" alt="photo by Kevin Mesme" :title="$t('imagesalt.face')"/>
     </div>
 	</div>
 </template>

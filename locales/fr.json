@@ -52,5 +52,13 @@
         "subject": "De quoi voulez vous parler?",
         "message": "Votre message",
         "send": "Envoyer"
+    },
+    "jellyfish": "Synchronisez votre respiration avec la méduse pour un effet détente express!",
+    "imagesalt":{
+        "jellyfish": "Je suis une méduse pluridisciplinaire!",
+        "face": "Ma tête de creative developper",
+        "instagram": "Mon quotidien de codeuse",
+        "behance": "Portfolio graphisme et illustration",
+        "linkedin": "CV en ligne"
     }
 }

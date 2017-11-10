@@ -52,5 +52,13 @@
         "subject": "What do you want to talk about?",
         "message": "Your message",
         "send": "Send"
+    },
+    "jellyfish": "Synch your breath with the jellyfish's swimming and relax!",
+    "imagesalt":{
+        "jellyfish": "I'm a multipotential jellyfish!",
+        "face": "My creative developper face",
+        "instagram": "Daily coding life pics",
+        "behance": "Graphic design portfolio",
+        "linkedin": "Online resume"
     }
 }

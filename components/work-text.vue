@@ -32,6 +32,16 @@
     width:0.7em;
     padding-top:0.2em;
   }
+
+  @keyframes rotateBullet {
+    from {
+      transform:rotate(0deg);
+    }
+    to {
+      transform:rotate(360deg);
+    }
+  }
+
   @media (max-width: 800px) {
     .work-text{
       width:80%;

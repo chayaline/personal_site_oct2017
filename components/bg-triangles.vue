@@ -1,6 +1,9 @@
 <template>
   <div class="bg-triangles">
-    <div class="Triangle Triangle--one" :class="{'Triangle--one-stage2': stage2}"></div>
+      <div :class="{'Triangle': true,
+                    'Triangle1': triangle1classes.Triangle1,
+                    'Triangle1p2': triangle1classes.Triangle1p2,
+                    'Triangle1p3': triangle1classes.Triangle1p3,}"></div>
     <div class="Triangle Triangle--two"></div>
     <!--<div class="Triangle Triangle--three"></div>
     <div class="Triangle Triangle--four"></div>-->
@@ -11,15 +14,30 @@
     data () {
       return {
         scrollAnim: false,
-        scrollPosition: 0,
-        stage2: false
+        isScrolling: false,
+        stage2: false,
+        previousVal: 0,
+        triangle1classes: {
+          'Triangle': true,
+          'Triangle1': true,
+          'Triangle1p2': false,
+          'Triangle1p3': false,
+          'Triangle1p4': false,
+          'Triangle1p5': false
+        }
       }
     },
     methods: {
       handleScroll () {
-        // console.log(window.scrollY, window.innerHeight)
-        // this.stage2 = window.scrollY >= window.innerHeight
-        // this.scrollPosition = window.scrollY
+        this.isScrolling = window.scrollY
+      }
+    },
+    watch: {
+      isScrolling (val) {
+        console.log('it changed', val)
+        this.triangle1classes.Triangle1 = window.scrollY < window.innerHeight
+        this.triangle1classes.Triangle1p2 = window.scrollY >= (window.innerHeight - 50) && window.scrollY < (window.innerHeight * 2)
+        this.triangle1classes.Triangle1p3 = window.scrollY >= (window.innerHeight * 2)
       }
     },
     beforeMount () {
@@ -48,21 +66,44 @@
     animation-iteration-count:initial;
   }
 
-  .Triangle--one {
+  .Triangle1 {
     transform:rotate(-10deg);
     position:absolute;
     width: 0;
     height: 0;
     border-style: solid;
     margin-top: 10%;
-    border-width: 25px 0 750px 480px;
-    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-width: 25px 0 60vh 380px;
     border-color: transparent transparent transparent rgba(255,255,255,0.3);
   }
 
-  .Triangle--one-stage2 {
-    margin-top: 50%;
+  .Triangle1p2 {
+    transform:rotate(10deg);
+    position:absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
     border-width: 25px 0 750px 480px;
+    border-color: transparent transparent transparent rgba(255,255,255,0.5);
+    margin-top: 10%;
+    animation-name: rotateTriangle;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+    .Triangle1p3 {
+    transform:rotate(5deg);
+    position:absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 750px 480px;
+    border-color: transparent transparent transparent rgba(255,255,255,0.5);
+    margin-top: 10%;
+    animation-name: rotateTriangle;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
   }
 
   .Triangle--two {
@@ -71,16 +112,26 @@
     height: 0;
     border-style: solid;
     margin-top: 10%;
-    border-width: 825px 0 0px 600px;
+    border-width: 100vh 0 0px 70vh;
     border-color: transparent transparent transparent rgba(255,255,255,0.4);
+  }
+
+  .triangle1trans-enter-active {
+    transform: translateX(0);
+  }
+
+  .triangle1trans-leave-active {
+    transform: translateX(360px);
   }
 
   @keyframes rotateTriangle {
     from {
-      transform: translateX(0);
+      transform: rotate(-10deg);
+      border-color: transparent transparent transparent rgba(255,255,255,0.3);
     }
     to {
-      transform: translateX(-150px);
+      transform: rotate(10deg);
+      border-color: transparent transparent transparent rgba(255,255,255,0.5);
     }
   }
 </style>
