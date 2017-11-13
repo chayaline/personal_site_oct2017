@@ -4,10 +4,14 @@
       <div class="Triangle Triangle1" v-show="show.triangle1"></div>
     </transition>
     <transition name="blinkTriangle">
-    <div class="Triangle Triangle--two" v-show="show.triangle2"></div>
+      <div class="Triangle Triangle--two" v-show="show.triangle2"></div>
      </transition>
-    <!--<div class="Triangle Triangle--three"></div>
-    <div class="Triangle Triangle--four"></div>-->
+    <transition name="blinkTriangle">
+      <div class="Triangle Triangle--three" v-show="show.triangle3"></div>
+    </transition>
+        <transition name="blinkTriangle">
+      <div class="Triangle Triangle--four" v-show="show.triangle4"></div>
+    </transition>
   </div>
 </template>
 <script>
@@ -18,7 +22,9 @@
         isScrolling: false,
         show: {
           triangle1: true,
-          triangle2: true
+          triangle2: true,
+          triangle3: false,
+          triangle4: false
         }
       }
     },
@@ -29,11 +35,11 @@
     },
     watch: {
       isScrolling (val) {
-        // console.log('it changed', val)
-        this.show.triangle1 = window.scrollY < window.innerHeight
-        this.show.triangle2 = window.scrollY < (window.innerHeight + window.innerHeight / 3)
-        // this.triangle1classes.Triangle1p2 = window.scrollY >= (window.innerHeight - 50) && window.scrollY < (window.innerHeight * 2)
-        // this.triangle1classes.Triangle1p3 = window.scrollY >= (window.innerHeight * 2)
+        let pageHeight = window.innerHeight
+        this.show.triangle1 = window.scrollY < pageHeight || (window.scrollY > pageHeight * 3)
+        this.show.triangle2 = window.scrollY < (pageHeight + pageHeight / 3) || (window.scrollY > pageHeight * 2)
+        this.show.triangle3 = window.scrollY > (pageHeight - pageHeight / 5) && window.scrollY < (pageHeight * 2 + pageHeight / 3)
+        this.show.triangle4 = window.scrollY > (pageHeight * 2 - pageHeight / 5) && window.scrollY < (pageHeight * 3)
       }
     },
     beforeMount () {
@@ -70,7 +76,7 @@
     border-style: solid;
     margin-top: 10%;
     border-width: 25px 0 60vh 380px;
-    border-color: transparent transparent transparent rgba(255,255,255,0.3);
+    border-color: transparent transparent transparent rgba(255,255,255,0.4);
   }
 
   .Triangle--two {
@@ -80,6 +86,30 @@
     border-style: solid;
     margin-top: 10%;
     border-width: 100vh 0 0px 70vh;
+    border-color: transparent transparent transparent rgba(255,255,255,0.6);
+  }
+
+  .Triangle--three {
+    transform: rotate(5deg);
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 3%;
+    margin-top: -5%;
+    border-style: solid;
+    border-width: 10vh 0 40vh 40vh;
+    border-color: transparent transparent transparent rgba(255,255,255,0.4);
+  }
+
+  .Triangle--four {
+    transform: rotate(5deg);
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-bottom: -5%;
+    bottom:0;
+    border-style: solid;
+    border-width: 30vh 0vh 10vh 100vh;
     border-color: transparent transparent transparent rgba(255,255,255,0.4);
   }
 

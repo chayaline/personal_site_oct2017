@@ -6,9 +6,6 @@
 
 <script>
 export default {
-  mounted () {
-    console.log('mounted', this.$i18n.locale)
-  },
   methods: {
     path (url) {
       return (this.$i18n.locale === 'en' ? url : '/' + this.$i18n.locale + url)
