@@ -26,10 +26,9 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
-    background-image: url('/paper_background.jpg');
-    background-size: cover;
+    background-image: url('/img-noise-361x370_dark.png');
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     color: #161616;
     font-weight:700;
@@ -94,11 +93,4 @@ export default {
       font-size: 14px;
     }
   }
-
-  @media only screen and (-webkit-min-device-pixel-ratio : 1.5),
-         only screen and (min-device-pixel-ratio : 1.5) {
-  .html {
-    background-image: url('/paper_texture_03_mobile.png');
-  }
-}
 </style>
