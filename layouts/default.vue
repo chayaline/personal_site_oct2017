@@ -28,7 +28,7 @@ export default {
     box-sizing: border-box;
     background-image: url('/paper_background.jpg');
     background-size: cover;
-    background-position: left top;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #161616;
@@ -94,4 +94,11 @@ export default {
       font-size: 14px;
     }
   }
+
+  @media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+         only screen and (min-device-pixel-ratio : 1.5) {
+  .html {
+    background-image: url('/paper_texture_03_mobile.png');
+  }
+}
 </style>
