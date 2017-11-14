@@ -64,6 +64,7 @@
     flex-direction: row;
     padding-left: 7%;
     flex-shrink: 0;
+    /* border:2px solid red; */
   }
 
   .left-container {

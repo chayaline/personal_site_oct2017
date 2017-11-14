@@ -4,9 +4,14 @@
     "tags": [ "#graphicdesign", "#softwaredev" ],
     "images": [
       {
-        "source": "",
-        "description": "",
-        "title": ""
+        "source": "https://image.ibb.co/crKtcb/demographics1.jpg",
+        "description": "Page of the Impact Report",
+        "title": "Page of the Impact Report"
+      },
+      {
+        "source": "https://image.ibb.co/e8eRxb/socialimpact.jpg",
+        "description": "Page of the Impact Report",
+        "title": "Page of the Impact Report"
       }
     ],
     "description": "Design, conception and implementation of a water utility parc management software, feeded by Cloud connected smart water meters. Operations on meters and data visualisation in near real time.",
@@ -38,5 +43,29 @@
       }
     ],
     "description": "Personnal drawings"
+  },
+  "Aste Béon": {
+    "title": "Aste Béon",
+    "tags": [ "#schoolproject", "#graphicdesign" ],
+    "images": [
+      {
+        "source": "",
+        "description": "",
+        "title": ""
+      }
+    ],
+    "description": "Création of a visual identity for Aste Béon's Falaise aux Vautours, an ecomuseum dedicated to vultures in the Pyrénées. I used lintels found in the village to recreate the shape of a vulture, and the logo uses the shape of a bearded vulture's eye."
+  },
+  "Tribal Fusion Layers Madness": {
+    "title": "Tribal Fusion Layers Madness",
+    "tags": [ "#web" ],
+    "images": [
+      {
+        "source": "",
+        "description": "",
+        "title": ""
+      }
+    ],
+    "description": "A random movements combinations generator for all kinds of bellydance, and an ideas generator to help dancers find topics for ther choreographies."
   }
 }
