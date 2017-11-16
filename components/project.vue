@@ -1,14 +1,17 @@
 <template>
 	<div class="projet-container">
-    <!-- <div class="project-images">
-      <div class="project-image" v-for="(image, key) in projectToShow.images" :key="key" :style="{ backgroundImage: 'url(' + image.source + ')' }">
-      </div>
-    </div> -->
     <div class="project-info">
-    <h1>{{projectToShow.title}}</h1>
+    <h1>{{projectToShow.title}}</h1><br/>
     <p>{{projectToShow.description}}</p><br/>
+    <div v-for="(link, key) in projectToShow.links" :key="key" >
+    <img src="/star.svg" class="puces"/>&nbsp<a  :href="link.url" target="_blank" >{{link.text}}</a><br/>
     </div>
-    <a href="#" @click="back($event)"> << </a>
+    <br/><a href="#" @click="back($event)" class="back-arrows"> << </a>
+    </div>
+    <div class="project-images">
+      <div class="project-image" v-for="(image, key) in projectToShow.images" :key="key" :style="{ backgroundImage: 'url(' + image.source + ')', flexBasis: image.flexbasis, flexGrow: image.flexgrow}">
+      </div>
+    </div>
 	</div>
 </template>
 <script>
@@ -33,30 +36,42 @@ export default {
 <style>
 .projet-container {
    /* border: 1px solid orange; */
-   width:90vw;
-   height:100vh;
-   flex-wrap: nowrap;
+   width:86vw;
+   height:50vh;
+   flex-wrap: wrap;
    overflow: hidden;
    flex-shrink: 0;
    display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   align-items: flex-start;
-   padding-bottom:10%;
-   padding-top:8%;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-end;
+   flex-shrink: 0;
 }
 
 .project-images {
+  flex-basis: 80%;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 5%;
+  height:100%;
+  padding-bottom: 15px;
 }
 
 .project-image {
-  width:20em;
-  height:20em;
+  /* border:1px solid fuchsia; */
+  height:100%;
+  margin-right:2px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position:top center;
+  background-position:bottom center;
+}
+
+.project-info {
+  flex-basis: 20%;
+}
+
+.back-arrows {
+  font-size: 1.4em;
 }
 </style>

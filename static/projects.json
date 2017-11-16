@@ -4,44 +4,93 @@
     "tags": [ "#graphicdesign", "#softwaredev" ],
     "images": [
       {
+        "source": "https://image.ibb.co/iwYgqw/couverture7.jpg",
+        "description": "Cover of the Impact Report",
+        "title": "Cover of the Impact Report",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
         "source": "https://image.ibb.co/crKtcb/demographics1.jpg",
         "description": "Page of the Impact Report",
-        "title": "Page of the Impact Report"
+        "title": "Page of the Impact Report",
+        "flexbasis":"10em",
+        "flexgrow": "1"
       },
       {
         "source": "https://image.ibb.co/e8eRxb/socialimpact.jpg",
         "description": "Page of the Impact Report",
-        "title": "Page of the Impact Report"
+        "title": "Page of the Impact Report",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/efn5Sm/newconsole.png",
+        "description": "Parc management software",
+        "title": "Parc management software",
+        "flexbasis":"10em",
+        "flexgrow": "2"
       }
     ],
-    "description": "Design, conception and implementation of a water utility parc management software, feeded by Cloud connected smart water meters. Operations on meters and data visualisation in near real time.",
-    "video": {
-      "source": "",
-      "description": ""
-    }
-  },
+    "links":[
+       {
+        "url":"https://fr.scribd.com/document/358684949/CityTaps-Social-Impact-Report",
+        "text":"Full report"
+      },
+      {
+        "url":"http://dai.ly/x63x5a6",
+        "text":"Demo video"
+      }
+    ],
+      "description": "Design, conception and implementation of a Cloud connected smart water meters parc management software. Operations on meters and data visualisation in near real time. Design of the social impact report."
+    },
+      
   "Mozaïka": {
     "title": "Mozaïka",
     "tags": [ "#graphicdesign", "#poster" ],
     "images": [
       {
-        "source": "",
-        "description": "",
-        "title": ""
+        "source": "https://image.ibb.co/foCkHb/affiche2017_v1.jpg",
+        "description": "affiche 2017",
+        "title": "affiche2017",
+        "flexbasis":"10em",
+        "flexgrow": "2"
       }
     ],
-    "description": "Poster design for the annual show of the dance school Mozaïka Poster design for the annual show of the dance school Mozaïka "
+    "description": "Poster design for the annual show of the dance school Mozaïka, and illustrations for their communication."
   },
   "Paper & ink": {
     "title": "Paper & ink",
     "tags": [ "#illustration" ],
     "images": [
       {
-        "source": "",
-        "description": "",
-        "title": ""
+        "source": "https://image.ibb.co/ccqGOG/crow_totem.jpg",
+        "description": "Crow Totem",
+        "title": "Crow Totem",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/ndH5Sm/plaque1_nb_sym_2.jpg",
+        "description": "Urnes styled Chtullu design for a wodden laser engraved Game Master Screen",
+        "title": "Urnes styled Chtullu design for a wodden laser engraved Game Master Screen",
+        "flexbasis":"10em",
+        "flexgrow": "2"
+      },
+      {
+        "source": "https://image.ibb.co/naj8f6/15_07_17_edited.jpg",
+        "description": "Algae",
+        "title": "Algae",
+        "flexbasis":"10em",
+        "flexgrow": "1"
       }
     ],
+    "links":[
+      {
+       "url":"https://www.behance.net/chamoncouca613",
+       "text":"Behance gallery"
+     }
+   ],
     "description": "Personnal drawings"
   },
   "Aste Béon": {
@@ -61,11 +110,19 @@
     "tags": [ "#web" ],
     "images": [
       {
-        "source": "",
-        "description": "",
-        "title": ""
+        "source": "https://image.ibb.co/cSewYR/tfmscreen.jpg",
+        "description": "TFM layers generator v2",
+        "title": "TFM layers generator v2",
+        "flexbasis":"10em",
+        "flexgrow": "1"
       }
     ],
+    "links":[
+      {
+       "url":"http://tribalfusionmadness.com/index.html",
+       "text":"Tribal Fusion Layers Madness site"
+     }
+   ],
     "description": "A random movements combinations generator for all kinds of bellydance, and an ideas generator to help dancers find topics for ther choreographies."
   }
 }
