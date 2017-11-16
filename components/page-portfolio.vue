@@ -101,7 +101,7 @@
 .safecontain {
    width:86vw;
    height:50vh;
-   /* border: 1px solid turquoise; */
+   /* border:1px solid black; */
 }
  .project-picture {
    flex-basis: 14em;
@@ -162,7 +162,8 @@
   .safecontain {
    width:100vw;
    height:auto;
-   padding-top: 10%;
+   min-height:100vh;
+   padding-top: 30%;
    flex-direction: column;
 }
 

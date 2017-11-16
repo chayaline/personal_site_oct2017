@@ -49,6 +49,7 @@ export default {
 }
 
 .project-images {
+  /* border:1px solid fuchsia; */
   flex-basis: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -69,9 +70,39 @@ export default {
 
 .project-info {
   flex-basis: 20%;
+  /* border: 1px solid blue; */
 }
 
 .back-arrows {
   font-size: 1.4em;
+}
+
+@media (max-width: 800px) {
+  .projet-container {
+    width:100vw;
+    height:auto;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .project-info {
+    flex-basis: 100%;
+    padding:5px;
+    flex-grow: 1;
+  }
+  .project-images {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    flex-basis: 90%;
+    min-width: 100vw;
+    height:auto;
+    flex-grow:3;
+  }
+  .project-image {
+    min-width:70vw;
+    background-position: center center;
+    flex-basis: 90vw !important;
+  }
 }
 </style>
