@@ -79,7 +79,7 @@ export default {
 
 @media (max-width: 800px) {
   .projet-container {
-    width:100vw;
+    width:90vw;
     height:auto;
     justify-content: center;
     align-items: flex-start;
@@ -105,4 +105,11 @@ export default {
     flex-basis: 90vw !important;
   }
 }
+
+
+  @media (max-height:600px) {
+    .projet-container {
+      padding-top: 7%;
+    }
+  }
 </style>
