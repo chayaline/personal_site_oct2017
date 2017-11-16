@@ -83,6 +83,7 @@
    overflow: hidden;
    align-items: center;
    justify-content: center;
+   flex-shrink: 0;
    /* border:1px solid green; */
  }
  .pictures-container {
@@ -194,6 +195,9 @@
    align-items: center;
  }
 }
- @media (max-width: 600px){
+ @media (max-height: 600px) and (min-width:500px){
+   .safecontain {
+     padding-top: 5%;
+   }
  }
 	</style>

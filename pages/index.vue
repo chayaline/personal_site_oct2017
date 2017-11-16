@@ -137,6 +137,8 @@
       max-width: 100vw;
       width:100vw;
       padding-left: 0;
+      min-height:100vh;
+      height:auto;
       justify-content: flex-end;
       flex-direction: column;
       /* border:1px solid red; */

@@ -33,6 +33,10 @@
 </script>
 
 <style>
+#pagecontact {
+  flex-shrink: 0;
+  /* border: 1px solid green; */
+}
   .contactform {
     position:relative;
     display: flex;
@@ -113,6 +117,21 @@
     }
     .contact-bg {
       display: none;
+    }
+  }
+
+  @media (max-height:600px) {
+    .contact-left-container {
+      display: none;
+    }
+    .contact-container {
+      max-height:100vh;
+    }
+    .input {
+      height:30px;
+    }
+    .text {
+      height:40vh ;
     }
   }
 	</style>
