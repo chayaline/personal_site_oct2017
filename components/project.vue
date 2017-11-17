@@ -22,7 +22,8 @@ export default {
   },
   data () {
     return {
-      projectToShow: projects[this.project] || ''
+      i18nlocale: this.$i18n.locale,
+      projectToShow: projects[this.$i18n.locale][this.project] || ''
     }
   },
   methods: {

@@ -1,4 +1,163 @@
 {
+  "fr":{
+  "CityTaps": {
+    "title": "CityTaps",
+    "tags": [ "#graphicdesign", "#softwaredev" ],
+    "images": [
+      {
+        "source": "https://image.ibb.co/iwYgqw/couverture7.jpg",
+        "description": "Couverture du rapport d'impact social",
+        "title": "Couverture du rapport d'impact social",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/crKtcb/demographics1.jpg",
+        "description": "Page du rapport d'impact social",
+        "title": "Page du rapport d'impact social",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/e8eRxb/socialimpact.jpg",
+        "description": "Page du rapport d'impact social",
+        "title": "Page du rapport d'impact social",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/efn5Sm/newconsole.png",
+        "description": "Interface de gestion de parc",
+        "title": "Interface de gestion de parc",
+        "flexbasis":"10em",
+        "flexgrow": "2"
+      }
+    ],
+    "links":[
+       {
+        "url":"https://fr.scribd.com/document/358684949/CityTaps-Social-Impact-Report",
+        "text":"Voir le rapport complet"
+      },
+      {
+        "url":"http://dai.ly/x63x5a6",
+        "text":"Demo video"
+      }
+    ],
+      "description": "Design, conception et implémentation d'un logiciel de gestion d'un parc de compteurs d'eau intelligents et connectés. (contrôle des compteurs et visualisation de données en temps quasi réel). Design du rapport d'impact social 2017."
+    },
+      
+  "Mozaïka": {
+    "title": "Mozaïka",
+    "tags": [ "#graphicdesign", "#poster" ],
+    "images": [
+      {
+        "source": "https://image.ibb.co/foCkHb/affiche2017_v1.jpg",
+        "description": "2017 Affiche",
+        "title": "2017 Affiche",
+        "flexbasis":"10em",
+        "flexgrow": "2"
+      },
+      {
+        "source": "https://image.ibb.co/fQymJR/danse_mozaika2.jpg",
+        "description": "Visuel 2010",
+        "title": "Visuel 2010",
+        "flexbasis":"10em",
+        "flexgrow": "2"
+      },
+      {
+        "source": "https://image.ibb.co/miEU56/danse_delphinebindis.jpg",
+        "description": "Visuel 2010",
+        "title": "Visuel 2010",
+        "flexbasis":"10em",
+        "flexgrow": "2"
+      }
+    ],
+    "description": "Design d'affiches pour le gala annuel (depuis 2009 jusqu'à aujourd'hui). Conception de visuels pour leur communication."
+  },
+  "Paper & ink": {
+    "title": "Paper & ink",
+    "tags": [ "#illustration" ],
+    "images": [
+      {
+        "source": "https://image.ibb.co/ccqGOG/crow_totem.jpg",
+        "description": "Crow Totem",
+        "title": "Crow Totem",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/ndH5Sm/plaque1_nb_sym_2.jpg",
+        "description": "Urnes styled Chtullu design for a wodden laser engraved Game Master Screen",
+        "title": "Urnes styled Chtullu design for a wodden laser engraved Game Master Screen",
+        "flexbasis":"10em",
+        "flexgrow": "2"
+      },
+      {
+        "source": "https://image.ibb.co/naj8f6/15_07_17_edited.jpg",
+        "description": "Algae",
+        "title": "Algae",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      }
+    ],
+    "links":[
+      {
+       "url":"https://www.behance.net/chamoncouca613",
+       "text":"Gallerie Behance"
+     }
+   ],
+    "description": "Dessins personnels"
+  },
+  "Aste Béon": {
+    "title": "Aste Béon",
+    "tags": [ "#schoolproject", "#graphicdesign" ],
+    "images": [
+      {
+        "source": "https://image.ibb.co/hiAuAw/affiche.jpg",
+        "description": "Poster for la falaise aux vautours",
+        "title": "Poster for la falaise aux vautours",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/mKB1k6/astebeoncdvapercu.jpg",
+        "description": "Business cards for Aste béon",
+        "title": "Business cards for Aste béon",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/ncr956/chemiseextfinal.jpg",
+        "description": "Folder for Aste Béon",
+        "title": "Folder for Aste Béon",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      }
+    ],
+    "description": "Création d'une identité visuelle pour le village d'Aste-Béon et son écomusé, la Falaise aux vautours. Je me suis servie des linteaux de portes présents dans le village et le logo reprend l'oeil rouge du Gypaète barbu."
+  },
+  "Tribal Fusion Layers Madness": {
+    "title": "Tribal Fusion Layers Madness",
+    "tags": [ "#web" ],
+    "images": [
+      {
+        "source": "https://image.ibb.co/cSewYR/tfmscreen.jpg",
+        "description": "TFM layers generator v2",
+        "title": "TFM layers generator v2",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      }
+    ],
+    "links":[
+      {
+       "url":"http://tribalfusionmadness.com/index.html",
+       "text":"Tribal Fusion Layers Madness"
+     }
+   ],
+    "description": "Un générateur de combinaisons de mouvements aléatoire pour les danses orientales, accompagné d'un générateur d'idées pour commencer une chorégraphie"
+  }
+},
+"en":{
   "CityTaps": {
     "title": "CityTaps",
     "tags": [ "#graphicdesign", "#softwaredev" ],
@@ -51,8 +210,22 @@
     "images": [
       {
         "source": "https://image.ibb.co/foCkHb/affiche2017_v1.jpg",
-        "description": "affiche 2017",
-        "title": "affiche2017",
+        "description": "2017 Poster",
+        "title": "2017 Poster",
+        "flexbasis":"10em",
+        "flexgrow": "2"
+      },
+      {
+        "source": "https://image.ibb.co/fQymJR/danse_mozaika2.jpg",
+        "description": "Visual 2010",
+        "title": "Visual 2010",
+        "flexbasis":"10em",
+        "flexgrow": "2"
+      },
+      {
+        "source": "https://image.ibb.co/miEU56/danse_delphinebindis.jpg",
+        "description": "Visual 2010",
+        "title": "Visual 2010",
         "flexbasis":"10em",
         "flexgrow": "2"
       }
@@ -98,9 +271,25 @@
     "tags": [ "#schoolproject", "#graphicdesign" ],
     "images": [
       {
-        "source": "",
-        "description": "",
-        "title": ""
+        "source": "https://image.ibb.co/hiAuAw/affiche.jpg",
+        "description": "Poster for la falaise aux vautours",
+        "title": "Poster for la falaise aux vautours",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/mKB1k6/astebeoncdvapercu.jpg",
+        "description": "Business cards for Aste béon",
+        "title": "Business cards for Aste béon",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/ncr956/chemiseextfinal.jpg",
+        "description": "Folder for Aste Béon",
+        "title": "Folder for Aste Béon",
+        "flexbasis":"10em",
+        "flexgrow": "1"
       }
     ],
     "description": "Création of a visual identity for Aste Béon's Falaise aux Vautours, an ecomuseum dedicated to vultures in the Pyrénées. I used lintels found in the village to recreate the shape of a vulture, and the logo uses the shape of a bearded vulture's eye."
@@ -125,4 +314,5 @@
    ],
     "description": "A random movements combinations generator for all kinds of bellydance, and an ideas generator to help dancers find topics for ther choreographies."
   }
+}
 }
