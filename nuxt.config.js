@@ -7,7 +7,9 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'Charline creative developper', content: 'Charline freelance web developper and graphic designer' }
+      { hid: 'description', name: 'Charline creative developper', content: 'Charline freelance web developper and graphic designer' },
+      { property: 'og:image', content:'https://image.ibb.co/kXh7Q6/sitepreviez.jpg'},
+      { property: 'og:title', content:'Charline, creative developper'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
