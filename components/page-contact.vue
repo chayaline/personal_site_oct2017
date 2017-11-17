@@ -35,7 +35,6 @@
 <style>
 #pagecontact {
   flex-shrink: 0;
-  /* border: 1px solid green; */
 }
   .contactform {
     position:relative;
@@ -72,7 +71,6 @@
     z-index: -1;
     position: absolute;
     left: 60%;
-    /*transform: rotate(10deg);*/
     animation-name: floatingPortrait;
     animation-duration:6s;
     animation-iteration-count:infinite;

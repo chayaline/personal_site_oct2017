@@ -119,7 +119,6 @@
     .menu-container {
       left: 5%;
       top: 5vh;
-      /*border: 1px solid blue;*/
     }
 
     .dropdown a {

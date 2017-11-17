@@ -23,4 +23,11 @@ export default {
 .lang p {
     font-size: 0.9em;
 }
+
+@media (max-height:500px)
+{
+  .lang {
+    top:15%;
+  }
+}
 </style>

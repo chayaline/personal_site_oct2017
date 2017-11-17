@@ -37,7 +37,6 @@ export default {
         margin: 0;
         padding: 0;
         height:auto;
-        /* border:1px solid pink; */
   }
 
 *, *:before, *:after {

@@ -64,7 +64,6 @@
     flex-direction: row;
     padding-left: 7%;
     flex-shrink: 0;
-    /* border:2px solid red; */
   }
 
   .left-container {
@@ -76,19 +75,16 @@
     justify-content: center;
     align-items: flex-start;
     flex-shrink: 0;
-    /*border:1px solid green;*/
   }
 
   .right-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /*min-width:60%;*/
     align-items: center;
     flex-wrap: wrap;
     flex-shrink: 0;
     flex-basis:60%;
-    /* border: 1px solid blue; */
   }
 
 .title {
@@ -141,7 +137,6 @@
       height:auto;
       justify-content: flex-end;
       flex-direction: column;
-      /* border:1px solid red; */
     }
   }
 

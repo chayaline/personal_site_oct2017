@@ -11,7 +11,7 @@
   <h1>{{ $t('about.besidecoding')}}:</h1>
     <p>{{ $t('about.besidetext')}}
   <br />
-  <br /> {{ $t('about.chatinvit')}} <a href="#">{{ $t('about.writeme')}}</a>!
+  <br /> {{ $t('about.chatinvit')}} <a href="#" v-scroll-to="'#pagecontact'">{{ $t('about.writeme')}}</a>!
 </p>
   </div>
 </template>
@@ -36,7 +36,6 @@
     margin-top: 20%;
     width: 90%;
     flex-shrink: 0;
-    /* border:1px solid purple; */
   }
 
   .detail-text {
@@ -53,7 +52,6 @@
       width: 80%;
       margin-top:5%;
       padding-left: 5%;
-      /*border:1px dotted red;*/
     }
   }
 

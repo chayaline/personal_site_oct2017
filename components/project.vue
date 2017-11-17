@@ -36,7 +36,6 @@ export default {
 </script>
 <style>
 .projet-container {
-   /* border: 1px solid orange; */
    width:86vw;
    height:50vh;
    flex-wrap: wrap;
@@ -50,7 +49,6 @@ export default {
 }
 
 .project-images {
-  /* border:1px solid fuchsia; */
   flex-basis: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -61,7 +59,6 @@ export default {
 }
 
 .project-image {
-  /* border:1px solid fuchsia; */
   height:100%;
   margin-right:2px;
   background-size: contain;
@@ -71,7 +68,6 @@ export default {
 
 .project-info {
   flex-basis: 20%;
-  /* border: 1px solid blue; */
 }
 
 .back-arrows {

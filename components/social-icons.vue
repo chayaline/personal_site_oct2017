@@ -66,9 +66,7 @@
       left:initial;
       right:5%;
       top: 4vh;
-      /*width:90%;*/
       justify-content:flex-end;
-      /*border:1px solid blue;*/
     }
   }
 </style>

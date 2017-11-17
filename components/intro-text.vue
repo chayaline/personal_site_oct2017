@@ -18,7 +18,6 @@
     text-align: left;
     margin-top: 50%;
     width: 90%;
-    /*border: 1px solid green;*/
   }
 
   @media (max-width: 800px) {
@@ -27,7 +26,6 @@
       padding-left:5%;
       margin-top:0vh;
       margin-bottom:5%;
-      /* border: 1px solid red; */
     }
   }
 

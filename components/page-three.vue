@@ -73,7 +73,6 @@
     text-align: left;
     margin-top: 90%;
     width: 90%;
-    /* border: 1px solid green; */
   }
   .cur-projects-title {
     color:#ca036a;

@@ -26,7 +26,6 @@
     margin-top: 50%;
     width: 90%;
     flex-shrink: 0;
-    /* border: 1px solid green; */
   }
   .puces {
     width:0.7em;
@@ -53,7 +52,6 @@
 
   @media (max-height:550px) {
    .work-text {
-     /* margin-top: 0%; */
      font-size: 0.8em;
 	 } 
   }

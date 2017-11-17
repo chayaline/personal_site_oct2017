@@ -84,10 +84,8 @@
    align-items: center;
    justify-content: center;
    flex-shrink: 0;
-   /* border:1px solid green; */
  }
  .pictures-container {
-   /* border: 1px solid chartreuse; */
    width:86vw;
    height:50vh;
    flex-wrap: nowrap;
@@ -102,7 +100,6 @@
 .safecontain {
    width:86vw;
    height:50vh;
-   /* border:1px solid black; */
 }
  .project-picture {
    flex-basis: 14em;
@@ -183,7 +180,6 @@
     height:auto;
   }
  .pictures-container {
-   /* border: 1px solid chartreuse; */
    width:100vw;
    height:auto;
    flex-wrap: wrap;
