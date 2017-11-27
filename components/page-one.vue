@@ -7,7 +7,7 @@
 			<transition name="fadeUp">
 				<div class="relax" v-show="isStressed">{{$t('jellyfish')}}</div>
 			</transition>
-			<img @click="isStressed = !isStressed" src="meduse.png" class="meduse" :title="$t('imagesalt.jellyfish')"/>
+			<img @click="isStressed = !isStressed" src="meduse.png" class="meduse" :alt="$t('imagesalt.jellyfish')" :title="$t('imagesalt.jellyfish')"/>
 		</div>
 	</div>
 </template>

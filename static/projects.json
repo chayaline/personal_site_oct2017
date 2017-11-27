@@ -155,6 +155,40 @@
      }
    ],
     "description": "Un générateur de combinaisons de mouvements aléatoire pour les danses orientales, accompagné d'un générateur d'idées pour commencer une chorégraphie"
+  },
+  "Code Mandalas": {
+    "title": "Code Mandalas",
+    "tags": [ "#illustration" ],
+    "images": [
+      {
+        "source": "https://image.ibb.co/fSNwCm/json_blues_square.jpg",
+        "description": "JSON aqua Mandala",
+        "title": "JSON aqua Mandala",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/gcY3sm/python_mandala_alt_square.jpg",
+        "description": "Python Mandala",
+        "title": "Python Mandala",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/ddXJQ6/brainfuck_mandala_poulpe_darkgreen_squareinsta.jpg",
+        "description": "Brainfuck Mandala",
+        "title": "Brainfuck Mandala",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      }
+    ],
+    "links":[
+      {
+       "url":"https://www.redbubble.com/fr/people/charline-m/shop/",
+       "text":"Redbubble Store"
+     }
+   ],
+    "description": "Des mandalas et visuels créés à partir d'éléments de code. Ils sont tous disponibles à l'impression et sur des objets variés sur le lien ci-dessous"
   }
 },
 "en":{
@@ -313,6 +347,40 @@
      }
    ],
     "description": "A random movements combinations generator for all kinds of bellydance, and an ideas generator to help dancers find topics for ther choreographies."
+  },
+  "Code Mandalas": {
+    "title": "Code Mandalas",
+    "tags": [ "#illustration" ],
+    "images": [
+      {
+        "source": "https://image.ibb.co/fSNwCm/json_blues_square.jpg",
+        "description": "JSON aqua Mandala",
+        "title": "JSON aqua Mandala",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/gcY3sm/python_mandala_alt_square.jpg",
+        "description": "Python Mandala",
+        "title": "Python Mandala",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      },
+      {
+        "source": "https://image.ibb.co/ddXJQ6/brainfuck_mandala_poulpe_darkgreen_squareinsta.jpg",
+        "description": "Brainfuck Mandala",
+        "title": "Brainfuck Mandala",
+        "flexbasis":"10em",
+        "flexgrow": "1"
+      }
+    ],
+    "links":[
+      {
+       "url":"https://www.redbubble.com/fr/people/charline-m/shop/",
+       "text":"Redbubble Store"
+     }
+   ],
+    "description": "Mandala made with code elements, all of them are avalaible on print and various objects on the Redbubble store (link below)"
   }
 }
 }

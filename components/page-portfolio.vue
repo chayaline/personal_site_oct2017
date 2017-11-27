@@ -35,14 +35,14 @@
             'preview_img': 'https://image.ibb.co/iwYgqw/couverture7.jpg'
           },
           {
+            'title': 'Code Mandalas',
+            'tags': ['#illustration'],
+            'preview_img': 'https://image.ibb.co/fSNwCm/json_blues_square.jpg'
+          },
+          {
             'title': 'Mozaïka',
             'tags': ['#graphicdesign', '#poster'],
             'preview_img': 'https://image.ibb.co/foCkHb/affiche2017_v1.jpg'
-          },
-          {
-            'title': 'Paper & ink',
-            'tags': ['#illustration'],
-            'preview_img': 'https://image.ibb.co/ccqGOG/crow_totem.jpg'
           },
           {
             'title': 'Aste Béon',

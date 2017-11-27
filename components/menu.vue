@@ -1,6 +1,6 @@
 <template>
   <div class="menu-container">
-    <img src="star.svg" class="star" :class="starClass" @click="showDrop = !showDrop, first = !first" alt="menu" title="menu" />
+    <img src="star.svg" class="star" :class="starClass"  @click="showDrop = !showDrop, first = !first" alt="menu" title="menu" />
     <transition name="menuSlide">
       <div class="dropdown" v-show="showDrop">
         <ul>
@@ -48,6 +48,10 @@
   .star {
     width: 25px;
     cursor: pointer;
+    transition: all .5s ease;
+  }
+  .star:hover {
+    transform: rotate(45deg);
   }
 
   .menu-container{
