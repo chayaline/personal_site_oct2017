@@ -30,9 +30,19 @@
         projToShow: '',
         projects: [
           {
+            'title': 'Adeline Arts Pilates',
+            'tags': ['#personalwebsite', '#UIdesign'],
+            'preview_img': 'https://i.ibb.co/j6vBkPQ/adeline-home.png'
+          },
+          {
             'title': 'CityTaps',
-            'tags': ['#graphicdesign', '#devsoftware'],
+            'tags': ['#UIdesign', '#devsoftware'],
             'preview_img': 'https://image.ibb.co/iwYgqw/couverture7.jpg'
+          },
+          {
+            'title': 'Tribal Fusion Layers Madness',
+            'tags': ['#webapp'],
+            'preview_img': 'https://i.ibb.co/MnWVMF0/Capture-d-e-cran-2021-09-06-a-14-23-44.png'
           },
           {
             'title': 'Code Mandalas',
@@ -43,16 +53,6 @@
             'title': 'Mozaïka',
             'tags': ['#graphicdesign', '#poster'],
             'preview_img': 'https://image.ibb.co/foCkHb/affiche2017_v1.jpg'
-          },
-          {
-            'title': 'Aste Béon',
-            'tags': ['#schoolproject', '#graphicdesign'],
-            'preview_img': 'https://image.ibb.co/hiAuAw/affiche.jpg'
-          },
-          {
-            'title': 'Tribal Fusion Layers Madness',
-            'tags': ['#web'],
-            'preview_img': 'https://image.ibb.co/gvdsxb/tfm.jpg'
           }
         ]
       }

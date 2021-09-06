@@ -108,40 +108,46 @@
    ],
     "description": "Dessins personnels"
   },
-  "Aste Béon": {
-    "title": "Aste Béon",
-    "tags": [ "#schoolproject", "#graphicdesign" ],
+  "Adeline Arts Pilates": {
+    "title": "Adeline Arts Pilates",
+    "tags": [ "#personalwebsite", "#UIdesign" ],
     "images": [
       {
-        "source": "https://image.ibb.co/hiAuAw/affiche.jpg",
-        "description": "Poster for la falaise aux vautours",
-        "title": "Poster for la falaise aux vautours",
+        "source": "https://i.ibb.co/2nbpy5V/moodboard-1.jpg",
+        "description": "Moodboard n°1",
+        "title": "Moodboard n°1",
         "flexbasis":"10em",
         "flexgrow": "1"
       },
       {
-        "source": "https://image.ibb.co/mKB1k6/astebeoncdvapercu.jpg",
-        "description": "Business cards for Aste béon",
-        "title": "Business cards for Aste béon",
+        "source": "https://i.ibb.co/mt8xrHL/moodboard-2.jpg",
+        "description": "Moodboard n°2",
+        "title": "Moodboard n°2",
         "flexbasis":"10em",
         "flexgrow": "1"
       },
       {
-        "source": "https://image.ibb.co/ncr956/chemiseextfinal.jpg",
-        "description": "Folder for Aste Béon",
-        "title": "Folder for Aste Béon",
+        "source": "https://i.ibb.co/j6vBkPQ/adeline-home.png",
+        "description": "Adeline's website homepage",
+        "title": "Adeline's website hompage",
         "flexbasis":"10em",
-        "flexgrow": "1"
+        "flexgrow": "2"
       }
     ],
-    "description": "Création d'une identité visuelle pour le village d'Aste-Béon et son écomusé, la Falaise aux vautours. Je me suis servie des linteaux de portes présents dans le village et le logo reprend l'oeil rouge du Gypaète barbu."
+    "links":[
+      {
+       "url":"https://www.adelineartpilates.fr/",
+       "text":"Voir le website"
+     }
+   ],
+    "description": "Création de moodboards, suivit du design de l'UI puis de l'implémentation du site d'Adline, instructrice pilates et professeur de danse."
   },
   "Tribal Fusion Layers Madness": {
     "title": "Tribal Fusion Layers Madness",
     "tags": [ "#web" ],
     "images": [
       {
-        "source": "https://image.ibb.co/cSewYR/tfmscreen.jpg",
+        "source": "https://i.ibb.co/MnWVMF0/Capture-d-e-cran-2021-09-06-a-14-23-44.png",
         "description": "TFM layers generator v2",
         "title": "TFM layers generator v2",
         "flexbasis":"10em",
@@ -237,7 +243,7 @@
     ],
       "description": "Design, conception and implementation of a Cloud connected smart water meters parc management software. Operations on meters and data visualisation in near real time. Design of the social impact report."
     },
-      
+
   "Mozaïka": {
     "title": "Mozaïka",
     "tags": [ "#graphicdesign", "#poster" ],
@@ -300,40 +306,46 @@
    ],
     "description": "Personnal drawings"
   },
-  "Aste Béon": {
-    "title": "Aste Béon",
-    "tags": [ "#schoolproject", "#graphicdesign" ],
+  "Adeline Arts Pilates": {
+    "title": "Adeline Arts Pilates",
+    "tags": [ "#personalwebsite", "#UIdesign" ],
     "images": [
       {
-        "source": "https://image.ibb.co/hiAuAw/affiche.jpg",
-        "description": "Poster for la falaise aux vautours",
-        "title": "Poster for la falaise aux vautours",
+        "source": "https://i.ibb.co/2nbpy5V/moodboard-1.jpg",
+        "description": "Moodboard n°1",
+        "title": "Moodboard n°1",
         "flexbasis":"10em",
         "flexgrow": "1"
       },
       {
-        "source": "https://image.ibb.co/mKB1k6/astebeoncdvapercu.jpg",
-        "description": "Business cards for Aste béon",
-        "title": "Business cards for Aste béon",
+        "source": "https://i.ibb.co/mt8xrHL/moodboard-2.jpg",
+        "description": "Moodboard n°2",
+        "title": "Moodboard n°2",
         "flexbasis":"10em",
         "flexgrow": "1"
       },
       {
-        "source": "https://image.ibb.co/ncr956/chemiseextfinal.jpg",
-        "description": "Folder for Aste Béon",
-        "title": "Folder for Aste Béon",
+        "source": "https://i.ibb.co/j6vBkPQ/adeline-home.png",
+        "description": "Adeline's website homepage",
+        "title": "Adeline's website hompage",
         "flexbasis":"10em",
-        "flexgrow": "1"
+        "flexgrow": "2"
       }
     ],
-    "description": "Création of a visual identity for Aste Béon's Falaise aux Vautours, an ecomuseum dedicated to vultures in the Pyrénées. I used lintels found in the village to recreate the shape of a vulture, and the logo uses the shape of a bearded vulture's eye."
+    "links":[
+      {
+       "url":"https://www.adelineartpilates.fr/",
+       "text":"Voir le website"
+     }
+   ],
+    "description": "Moodboards creation, followed by UI design and website implementation, for Adeline, a Pilates and dance instructor."
   },
   "Tribal Fusion Layers Madness": {
     "title": "Tribal Fusion Layers Madness",
     "tags": [ "#web" ],
     "images": [
       {
-        "source": "https://image.ibb.co/cSewYR/tfmscreen.jpg",
+        "source": "https://i.ibb.co/MnWVMF0/Capture-d-e-cran-2021-09-06-a-14-23-44.png",
         "description": "TFM layers generator v2",
         "title": "TFM layers generator v2",
         "flexbasis":"10em",

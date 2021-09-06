@@ -1,7 +1,7 @@
 {
   "name": "charline_freelance",
-  "version": "1.0.0",
-  "description": "Charline freelance web developper and graphic designer website",
+  "version": "1.0.1",
+  "description": "Charline freelance UX/UI desginer and fron-end developper website",
   "author": "charline moncoucut",
   "private": true,
   "scripts": {

@@ -3,7 +3,7 @@
     <a href="https://www.facebook.com/charlinem.creadev/" target="_blank"><img :src="facebook" @mouseover="facebook = facebook_pink" @mouseleave="facebook = facebook_grey" class="svg" /></a>
     <!-- <img :src="twitter"  @mouseover="twitter = twitter_pink" @mouseleave="twitter = twitter_grey" class="svg" /> -->
     <a href="https://www.instagram.com/charline.creativedev/" target="_blank"><img :src="instagram" @mouseover="instagram = instagram_pink" @mouseleave="instagram = instagram_grey" class="svg" alt="instagram - daily pics" :title="$t('imagesalt.instagram')"/></a>
-    <a href="https://www.behance.net/chamoncouca613" target="_blank"><img :src="behance" @mouseover="behance = behance_pink" @mouseleave="behance = behance_grey" class="svg" alt="behance - graphic design portfolio" :title="$t('imagesalt.behance')" /></a>
+    <a href="https://www.behance.net/charlinem/" target="_blank"><img :src="behance" @mouseover="behance = behance_pink" @mouseleave="behance = behance_grey" class="svg" alt="behance - graphic design portfolio" :title="$t('imagesalt.behance')" /></a>
     <a href="https://www.linkedin.com/in/charline-moncoucut/" target="_blank"><img :src="linkedin" @mouseover="linkedin = linkedin_pink" @mouseleave="linkedin = linkedin_grey" class="svg" alt="linkedin - online resume" :title="$t('imagesalt.linkedin')"/></a>
     <a href="https://www.redbubble.com/fr/people/charline-m/shop/" target="_blank"><img :src="redbubble" @mouseover="redbubble = redbubble_pink" @mouseleave="redbubble = redbubble_grey" class="svg" alt="Redbubble - design shop" :title="$t('imagesalt.redbubble')"/></a>
     <!-- <img :src="pinterest" @mouseover="pinterest = pinterest_pink" @mouseleave="pinterest = pinterest_grey" class="svg" /> -->

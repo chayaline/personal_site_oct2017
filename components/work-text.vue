@@ -5,12 +5,12 @@
     </h1><br/>
     <h2 class="small"><span class="cat-puces">
       <img src="/star.svg" class="puces"/> {{$t('whatido.logodesign')}}</span>
+    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.uxdesign')}}
+    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.designOps')}}
     <br/><img src="/star.svg" class="puces"/> {{$t('whatido.brandid')}}
     <br/><img src="/star.svg" class="puces"/> {{$t('whatido.printcom')}}
     <br/><img src="/star.svg" class="puces"/> {{$t('whatido.websites')}}
-    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.webapp')}}
     <br/><img src="/star.svg" class="puces"/> {{$t('whatido.datavis')}}
-    <br/><img src="/star.svg" class="puces"/> {{$t('whatido.infographics')}}
     <br/><img src="/star.svg" class="puces"/> {{$t('whatido.socialmedia')}}
     <br/><br/>{{$t('whatido.notonthelist')}} <a href="#" v-scroll-to="'#pagecontact'">{{$t('whatido.tellaboutit')}}</a></h2>
     <br/>
